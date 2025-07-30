@@ -1,6 +1,6 @@
-# Privacy Policy for Ticket360 Chrome Extension
+# Privacy Policy for Ticket360 Extension
 
-**Last Updated:** July 30, 2025
+**Last Updated:** Aug 1st, 2025
 
 Thank you for using Ticket360 ("we," "us," or "our"). This Privacy Policy explains how we collect, use, and disclose information when you use our Chrome extension (the "Service"). Your privacy is of the utmost importance to us.
 
@@ -47,4 +47,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 6. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us by opening an issue on our GitHub repository.
+If you have any questions about this Privacy Policy, please contact us by sending mail to hi.arivoli.in@gmail.com
