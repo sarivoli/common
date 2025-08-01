@@ -2,7 +2,7 @@
 
 **Last Updated:** Aug 1st, 2025
 
-Thank you for using Ticket360 ("we," "us," or "our"). This Privacy Policy explains how we collect, use, and disclose information when you use our Chrome extension (the "Service"). Your privacy is of the utmost importance to us.
+Thank you for using Ticket360 ("we," "us," or "our"). This Privacy Policy explains how we collect, use, and disclose information when you use our browser extension (the "Service"). Your privacy is of the utmost importance to us.
 
 ## 1. Information We Collect
 
@@ -34,7 +34,7 @@ We **do not** sell, trade, or rent your data to third parties. We do not use you
 
 ## 3. Data Storage and Security
 
-- **Local Storage:** The extension uses the browser's local `chrome.storage` API to store your settings, such as API keys for Jira and OpenAI. This data is stored on your local machine and is not transmitted to our servers. You are responsible for the security of your own API credentials.
+- **Local Storage:** The extension uses the browser's local `browser.storage` API to store your settings, such as API keys for Jira and OpenAI. This data is stored on your local machine and is not transmitted to our servers. You are responsible for the security of your own API credentials.
 - **Data Transmission:** All communication with Jira and OpenAI APIs is performed over secure HTTPS connections.
 
 ## 4. User Consent
