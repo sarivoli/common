@@ -1,6 +1,6 @@
 # Ticket360 Extension - Release Notes
 
-## Version 1.1.0 - [Date of Release]
+## Version 1.1.0
 
 *   **Search History Feature**:
     *   Introduced a new search history section on the main popup screen.
@@ -12,9 +12,6 @@
     *   Implemented a notification in the popup footer to alert users about new available versions.
     *   Displays release notes for the new version.
     *   Allows users to dismiss the notification for a specific version.
-*   **Version Synchronization**:
-    *   Automated version syncing across `package.json`, manifest files, and `version.json` during the build process.
-    *   Ensures consistency of version numbers across the extension.
 
 ## Version 1.0.0 - Initial Release
 
