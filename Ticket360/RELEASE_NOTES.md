@@ -1,3 +1,23 @@
+# Ticket360 Extension - Release Notes
+
+## Version 1.1.0 - [Date of Release]
+
+*   **Search History Feature**:
+    *   Introduced a new search history section on the main popup screen.
+    *   Allows users to store and view recently searched Jira ticket IDs.
+    *   Clicking a history item re-fetches the ticket details.
+    *   Option to remove individual items from the history.
+    *   Configurable in the Options page: enable/disable and set maximum number of items (1-10).
+*   **New Version Notification**:
+    *   Implemented a notification in the popup footer to alert users about new available versions.
+    *   Displays release notes for the new version.
+    *   Allows users to dismiss the notification for a specific version.
+*   **Version Synchronization**:
+    *   Automated version syncing across `package.json`, manifest files, and `version.json` during the build process.
+    *   Ensures consistency of version numbers across the extension.
+
+## Version 1.0.0 - Initial Release
+
 We are excited to announce the initial release of the Ticket360 Chrome Extension! This version provides a comprehensive 360-degree view of your Jira tickets directly from your browser.
 
 ### Key Features:
