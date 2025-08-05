@@ -2,16 +2,13 @@
 
 ## Version 1.1.0
 
+### Key Features:
 *   **Search History Feature**:
     *   Introduced a new search history section on the main popup screen.
     *   Allows users to store and view recently searched Jira ticket IDs.
     *   Clicking a history item re-fetches the ticket details.
     *   Option to remove individual items from the history.
     *   Configurable in the Options page: enable/disable and set maximum number of items (1-10).
-*   **New Version Notification**:
-    *   Implemented a notification in the popup footer to alert users about new available versions.
-    *   Displays release notes for the new version.
-    *   Allows users to dismiss the notification for a specific version.
 
 ## Version 1.0.0 - Initial Release
 
