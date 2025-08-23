@@ -1,5 +1,18 @@
 # Ticket360 Extension - Release Notes
 
+## Version 1.2.0
+
+### Key Features:
+*   **Links Tab**: 
+    *   A new "Links" tab to display all tickets linked to the current ticket.
+    *   The table shows the Key, Status, and Relation of each linked ticket.
+*   **Persistent Search Results**:
+    *   The last searched ticket's results are now preserved.
+    *   The results will be displayed when the extension is reopened, until the user clicks the "Back to Search" button.
+*   **Direct Jira Links**:
+    *   The ticket ID in the search input now generates a direct link to the Jira ticket.
+    *   The ticket title in the results view is now a hyperlink to the Jira ticket.
+
 ## Version 1.1.0
 
 ### Key Features:
