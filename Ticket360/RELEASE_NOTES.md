@@ -1,5 +1,24 @@
 # Ticket360 Extension - Release Notes
 
+## Version 1.3.0
+
+### Key Features:
+*   **Dynamic Field History**:
+    *   Introduced comprehensive history tracking for all user-configured fields in the "Overview" tab.
+    *   Click on any field in the "Overview" tab to view its detailed history, including "From" and "To" values, "Changed By," "Changed On," and "Duration" in that state.
+    *   Initial field values (from ticket creation) are now included in the history.
+    *   Enhanced user experience: Entire field rows in the "Overview" tab are now clickable to access history, with visual hover effects and "Click to view history" hints.
+*   **Guided Tour Feature**:
+    *   Implemented an interactive, step-by-step guided tour to introduce new users to the extension's key features.
+    *   The tour automatically starts on first installation or after an update.
+    *   Users can manually initiate the tour at any time via a new "Start Tour" button in the header.
+    *   Dynamic tour steps: Only relevant tour steps are displayed based on the availability and visibility of elements on the screen, ensuring a contextual and smooth experience.
+*   **Enhanced Comment Copy Option**:
+    *   Improved the comment copying functionality to include more context.
+    *   Copied comments now feature a header with the ticket key, summary, type, and status.
+    *   The commenter's name and the comment's age (relative time) are now included in the copied content.
+    *   A direct link to the specific comment within Jira is now part of the copied HTML, allowing users to navigate directly to the comment.
+
 ## Version 1.2.0
 
 ### Key Features:
