@@ -64,6 +64,16 @@ A Browser extension that transforms Jira ticket management with a unified 360° 
 
 ## TICKET360 EXTENSION - RELEASE NOTES
 
+### VERSION 1.4.0
+
+**KEY FEATURES:**
+
+*   **Context Menu Enhancements**:
+    *   **"Open in Jira" Option**: Added a new context menu item to directly open selected text in Jira.
+    *   **Smart Search Logic**: Automatically detects if selected text is a Jira ticket key (opens ticket directly) or general text (performs JQL search).
+    *   **Popup vs Tab Preference**: New option in settings to choose whether the extension opens as a popup or in a new tab (Chrome/Edge).
+    *   **Optimized Tab View**: Improved layout with restricted width when opening the extension in a new tab for better readability.
+
 ### VERSION 1.3.0
 
 **KEY FEATURES:**
