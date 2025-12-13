@@ -560,6 +560,7 @@ Flip cards are interactive
 
 ## Support & Resources
 
+- **GitHub**: [Report issues and contribute](#)
 - **Documentation**: Full API reference at docs.markdeck.dev
 - **Examples**: Sample presentations in extension package
 - **Community**: Join our Discord for help and tips
