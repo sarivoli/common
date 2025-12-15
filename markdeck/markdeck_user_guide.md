@@ -354,6 +354,49 @@ Full-featured Chart.js integration.
 
 ---
 
+
+#### ID Card Widget
+
+Employee identification style card.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `name` | String | Person's name |
+| `designation` | String | Job title or Role |
+| `id` | String | ID number/code (optional) |
+| `tag` | String | Corner tag text (e.g., "VIP", "New") |
+
+**Syntax:**
+```markdown
+<!-- @idcard name="John Doe" designation="Software Engineer" id="EMP-001" tag="Staff" -->
+**Welcome!**
+Identity content here.
+<!-- @endidcard -->
+```
+
+---
+
+#### Appreciation Card Widget
+
+Special card for recognitions and awards.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `name` | String | Recipient's name |
+| `designation` | String | Recipient's role |
+| `subtitle` | String | Award title or short text |
+| `team` | String | Team name |
+| `logo` | String | URL to logo/avatar image |
+
+**Syntax:**
+```markdown
+<!-- @appreciation name="Jane Doe" designation="Product Owner" subtitle="Employee of the Month" team="Product Team" logo="logo.png" -->
+For outstanding leadership and dedication.
+<!-- @endappreciation -->
+```
+
+---
+
 ### Media Elements
 
 #### Images with Attributes
