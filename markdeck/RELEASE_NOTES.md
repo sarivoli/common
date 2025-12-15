@@ -1,3 +1,11 @@
+# MarkDeck v1.2.0
+
+## 🆕 New Widgets
+*   **ID Card**: Create professional employee ID cards with `<!-- @idcard -->`. Includes support for images, roles, and tags.
+*   **Appreciation Card**: Recognize team members with `<!-- @appreciation -->`, featuring award titles and team branding.
+
+---
+
 # MarkDeck v1.0.0
 
 **Launch Day! 🚀**
