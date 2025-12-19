@@ -64,6 +64,29 @@ A Browser extension that transforms Jira ticket management with a unified 360° 
 
 ## TICKET360 EXTENSION - RELEASE NOTES
 
+### VERSION 1.5.0
+
+**KEY FEATURES:**
+
+*   **Advanced JQL Search**:
+    *   **Tabbed Interface**: Unified search experience with separate tabs for "Ticket Search" and "JQL Search".
+    *   **Powerful Queries**: Run JQL queries directly from the popup to find issues based on any criteria.
+    *   **Tabular Results**: View search results in a dynamic table with configurable columns.
+    *   **Batch Loading**: Efficiently load large result sets with "Load More" pagination.
+    *   **Quick Actions**: View history for any ticket in the results or copy the entire table as HTML.
+*   **Dynamic Toolbar Behavior**:
+    *   **Popup vs Tab Toggle**: The extension now respects your "Open as Popup" setting even when clicking the main toolbar icon.
+    *   **Smart Tab Management**: Reuses the existing extension tab instead of opening a new one, reducing clutter and saving resources.
+
+*   **Enhanced Comments Management**:
+    *   **Smart Filtering**: Filter comments by multiple authors via a multi-select dropdown.
+    *   **Wildcard Search**: Search within comment text and author names instantly.
+    *   **One-Click Reset**: "Clear All" button to instantly reset filters and view full conversation.
+*   **Cross-Browser Fixes & Polish**:
+    *   **Firefox/Edge Compatibility**: Resolved "XSRF check failed" and auth issues by optimizing API requests (v2, GET method).
+    *   **Universal Date Format**: Standardized absolute dates to **DD/MMM/YYYY HH:MM AM/PM** format across all screens.
+
+
 ### VERSION 1.4.0
 
 **KEY FEATURES:**
