@@ -1,3 +1,32 @@
+# MarkDeck v1.3.0
+
+## 🛠️ Sidebar Improvements
+*   **Auto-Header Management**: Automatically adds `<!-- @type=presentation -->` when changing theme or animation.
+*   **Native Snippets**: Improved notation insertion using VS Code's `SnippetString` API. This fixes text wrapping issues and provides better cursor placement.
+*   **Enhanced Stability**: Using native APIs avoids conflicts with auto-correction and auto-close tag features.
+
+## � New Widgets
+*   **Photo Card**: Showcase images with rich captions and alignment options using `<!-- @imagecard -->`.
+*   **Circle Meter**: Visualize data with a circular gauge using `<!-- @circlemeeter -->`.
+*   **Circle Progress**: Display percentage progress in a compact ring using `<!-- @circleprogress -->`.
+
+## �🎨 Styling Fixes
+*   **Code Block Height**: Limited code snippets to a maximum of 25 lines with integrated vertical scrolling.
+
+## 📺 Preview Experience (Redesigned)
+*   **Theme Visualization**: New "color stripe" design in theme cards instantly shows the primary, secondary, and accent colors.
+*   **Animation Thumbnails**: Added high-quality static preview images for all built-in animations (Celebrate, Growth, Initiative, Net, Security, Transform), replacing generic icons.
+*   **Dynamic Feedback**: Settings panel now provides instant 'toast' notifications (e.g., "Updated: theme set to...") to confirm changes.
+
+*   **Smart Context**: The settings panel now intelligently finds and updates the visible Markdown presentation even if focus is currently on the panel itself.
+
+## 🐛 Fixes & Refinements
+*   **Robust Chart Loading**: Added CDN fallback for Chart.js to prevent "Resource not found" errors in standalone exports.
+*   **Interactive Widgets**: Fixed click handing for FlipCards and improved their reliability on load.
+*   **Theme-Aware Widgets**: CircleMeters and ProgressBars now automatically inherit theme colors (`--primary`, `--success`, etc.) if not explicitly themed.
+
+---
+
 # MarkDeck v1.2.0
 
 ## 🆕 New Widgets
