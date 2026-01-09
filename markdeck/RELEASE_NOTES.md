@@ -4,11 +4,14 @@
 *   **Project Timelines**: Visualize milestones and project phases with the new `@roadmap` widget.
 *   **Milestone Tracking**: Use `@milestone` to mark dates, labels, and status (done/active/pending).
 
-## 🎨 Sidebar Redesign (v1.3.0 Enhanced)
-*   **Unified Scroll & Compact Tabs**: The settings panel now features a cleaner, tabbed layout with a single scrollbar, solving usability issues.
-*   **Compact Thumbnails**: Theme and animation previews have been optimized to save 30% more vertical space.
-*   **Visual Polish**: Enhanced headers, spacing, and hover effects for a more professional look.
-*   **Card Border Control**: New `border` attribute for `@card` widget.
+## 🎨 New Themes & Animations
+*   **8 New Premium Themes**: Introduced specialized themes for different industries: `CloudWhite`, `CyberGreen`, `DarkEnterprise`, `FinTech`, `Healthcare`, `Monochrome`, `OceanBlue`, and `Default`.
+*   **14 New High-Fidelity Animations**: Expanded the animation library with `Celebrate`, `Checkmark`, `Conveyor`, `FailFix`, `Firewall`, `Growth`, `Initiative`, `MilestonePop`, `NeuralGlow`, `PulseRings`, `Security`, `StepHighlight`, `Transform`, and `Waves`.
+
+## 🖼️ Premium Visual Assets
+*   **Professional AI-Generated Thumbnails**: Replaced generic icons with custom-designed, AI-generated digital art for all animations, providing a high-end preview experience.
+*   **Square Thumbnail Grid**: Fixed image stretching by adopting a standard `1:1` square aspect ratio with improved spacing and rounded corners.
+*   **Unified Design Aesthetic**: Applied a consistent "Indigo & Neon" visual language across all settings panels assets.
 
 ---
 
@@ -24,8 +27,7 @@
 *   **Circle Meter**: Visualize data with a circular gauge using `<!-- @circlemeeter -->`.
 *   **Circle Progress**: Display percentage progress in a compact ring using `<!-- @circleprogress -->`.
 
-## 🎨 Styling Fixes
-*   **Code Block Height**: Limited code snippets to a maximum of 25 lines with integrated vertical scrolling.
+
 
 ## 📺 Preview Experience (Redesigned)
 *   **Theme Visualization**: New "color stripe" design in theme cards instantly shows the primary, secondary, and accent colors.
