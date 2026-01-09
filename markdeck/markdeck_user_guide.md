@@ -397,6 +397,26 @@ For outstanding leadership and dedication.
 
 ---
 
+### Roadmap Widget
+
+Visualize project timelines and milestones.
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `title` | String | None | Roadmap title |
+| `width` | String | `100%` | Container width |
+
+**Syntax:**
+```markdown
+<!-- @roadmap title="2024 Plans" -->
+<!-- @milestone date="Q1" label="Discovery" status="done" -->
+<!-- @milestone date="Q2" label="Development" status="active" -->
+<!-- @milestone date="Q3" label="Launch" status="pending" -->
+<!-- @endroadmap -->
+```
+
+---
+
 ### Media Elements
 
 #### Images with Attributes
@@ -612,4 +632,4 @@ Flip cards are interactive
 
 **Created with ❤️ for developers who present**
 
-*Version 1.0 | MIT License*
+*Version 1.3.0 | MIT License*
