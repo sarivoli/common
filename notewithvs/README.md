@@ -9,6 +9,12 @@ A Markdown note manager for VS Code with local file support and reminder support
 ### Installation
 ![Installation Demo](https://static.wixstatic.com/media/1c4343_136ce419f57c405d988ddaa03531f245~mv2.gif)
 
+### Configure Folders
+![Configure Folders](https://static.wixstatic.com/media/1c4343_029dab9704df46358935f441dd327e97~mv2.gif)
+
+### Sorting files
+![Sorting files](https://static.wixstatic.com/media/1c4343_a063ed19e5c74ee5a6c916d0617bccd6~mv2.gif)
+
 ### Copy Note
 ![Copy Note Demo](https://static.wixstatic.com/media/1c4343_9c3f8254abee4cbdacdbac67377cda82~mv2.gif)
 
@@ -102,6 +108,11 @@ Templates are listed in the "Templates" view. Click to copy content or use the c
 *   `notewithvs.maxFolderDepth`: Maximum nesting depth for scanning (default 5).
 
 ## Release Notes
+
+### 1.2.1
+
+*   **Configuration Migration**: Automatically converts legacy folder settings to the new structured format.
+*   **Fixes**: General bug fixes, case-insensitive file scanning, and performance improvements.
 
 ### 1.2.0
 
