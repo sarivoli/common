@@ -1,5 +1,5 @@
 {
-  "version": "1.3.1",
-  "releaseNotes": "Addressed Firefox extention related issues",
+  "version": "1.6.0",
+  "releaseNotes": "Unified Professional Styling, Dynamic Toolbar Behavior, and Advanced JQL Enhancements",
   "releaseUrl": "https://github.com/sarivoli/common/blob/main/Ticket360/RELEASE_NOTES.md"
 }
