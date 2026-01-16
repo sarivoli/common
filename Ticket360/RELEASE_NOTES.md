@@ -64,6 +64,23 @@ A Browser extension that transforms Jira ticket management with a unified 360° 
 
 ## TICKET360 EXTENSION - RELEASE NOTES
 
+### VERSION 1.6.0
+
+**KEY FEATURES:**
+
+*   **JQL Pivot Analysis**:
+    *   **Drag-and-Drop Designer**: Intuitive interface to design complex pivot tables by dragging fields into Row, Column, and Value zones.
+    *   **Flexible Calculations**: Automatically calculates counts and totals for any Jira field.
+    *   **Dynamic Synchronization**: Available fields for pivoting are automatically synced with your "Fields" configuration.
+    *   **Default "Issue Key" Integration**: "Issue Key" is now a default field and handles counting by default, providing instant value on first use.
+*   **Highly Professional "Copy as HTML"**:
+    *   **Premium Reports**: All exports (Overview, Links, JQL Results, and Pivot) now feature professional headers, query context, and branded footers.
+    *   **Robust Multi-App Support**: Uses a new DOM-selection copy method for maximum compatibility with Outlook, Word, Excel, and Email clients while preserving table formatting and styles.
+    *   **Bold Visuals**: Highlighted totals, grand totals, and clear headers for immediate readability in corporate environments.
+*   **UX & Consistency Polish**:
+    *   **Smart Event Re-binding**: Copy functionality now dynamically updates based on active tabs, ensuring seamless transitions between JQL Results and Pivot views.
+    *   **Universal Date Formatting**: Consolidated date/time formatting across all system-generated exports for professional consistency.
+
 ### VERSION 1.5.0
 
 **KEY FEATURES:**
