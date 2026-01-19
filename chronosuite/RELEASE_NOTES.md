@@ -1,10 +1,21 @@
+<table>
+  <tr>
+    <td width="220" valign="top">
+      <img src="https://raw.githubusercontent.com/sarivoli/common/bf46ef808f5d2412e9f9a2921eb63a7e922b274e/chronosuite/ChronoSuite__logo.png" width="200" /> 
+    </td>
+    <td valign="top">
+      <h2>ChronoSuite</h2> 
+      <i>Planning, Engineered.</i> <br/><br/>
+      <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
+      <strong>Version:</strong> 0.2.4<br/>
+      <strong>Build:</strong> 1<br/>
+    </td>
+  </tr>
+</table>
 
-**Version:** 0.2.4  
-**Build:** 1  
-**Status:** ![Beta](https://img.shields.io/badge/Status-Beta-yellow)  
-**Tagline:** Planning, Engineered.
 
-![Banner](https://via.placeholder.com/1200x600/4f46e5/ffffff?text=ChronoSuite+v0.2.4+|+Planning,+Engineered.)
+
+
 
 ## Overview
 
