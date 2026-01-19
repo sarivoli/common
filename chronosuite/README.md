@@ -51,3 +51,6 @@ ChronoSuite is a sophisticated React-based planning suite designed to automate t
 - **Rule-Centric Coloring**: Events are colored based on their associated Rule colors for maximum visual clarity.
 - **Sticky Headers**: Scroll-friendly calendar grid with sticky month navigation and day-of-week headers.
 - **Adaptive Sizing**: Popup window automatically scales to content for a cleaner extension experience.
+
+---
+*© 2026 www.arivoli.in All rights reserved.*
