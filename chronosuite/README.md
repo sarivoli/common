@@ -15,7 +15,7 @@
 
 ## Overview
 
-ChronoSuite is a sophisticated React-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, ChronoSuite understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
+ChronoSuite is a sophisticated browser extension-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, ChronoSuite understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
 
 
 ## v 0.2.4 - Key Features
