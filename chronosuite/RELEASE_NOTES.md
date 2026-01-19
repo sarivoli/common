@@ -1,9 +1,9 @@
-<table>
+<table border="0" cellspacing="0" cellpadding="0"> 
   <tr>
-    <td width="220" valign="top">
+    <td style="border:none; padding-right:20px;" valign="top">
       <img src="https://raw.githubusercontent.com/sarivoli/common/bf46ef808f5d2412e9f9a2921eb63a7e922b274e/chronosuite/ChronoSuite__logo.png" width="200" /> 
     </td>
-    <td valign="top">
+    <td style="border:none;" valign="top">
       <h2>ChronoSuite</h2> 
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
@@ -12,10 +12,6 @@
     </td>
   </tr>
 </table>
-
-
-
-
 
 ## Overview
 
