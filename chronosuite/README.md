@@ -1,5 +1,1 @@
-# chronosuite
-
-A new directory for ChronoSuite: utilities, tests, and tools related to time-based functionality, benchmarks, and scheduling helpers. Add additional files here as needed.
-
-This README is a placeholder to ensure the `chronosuite` directory is tracked by Git.
+ChronoSuite is a sophisticated React-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, ChronoSuite understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
