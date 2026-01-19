@@ -45,3 +45,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 ## 6. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us by sending mail to [EMAIL_ADDRESS]
+
+
+
+*© 2026 www.arivoli.in All rights reserved.*
