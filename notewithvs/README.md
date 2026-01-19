@@ -1,8 +1,18 @@
-# Note with VS
+<table border="0" cellspacing="0" cellpadding="0"> 
+  <tr>
+    <td style="border:none; padding-right:20px;" valign="top">
+      <img src="https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/notewithvs/logo.png" width="200" /> 
+    </td>
+    <td style="border:none;" valign="top">
+      <h2>Note with VS</h2> 
+      <i>A Markdown note manager for VS Code with local file support and reminder support.</i> <br/><br/>
+      <strong>Version:</strong> 1.2.1<br/>
+      <strong>Build:</strong> 6<br/>
+    </td>
+  </tr>
+</table>
 
-A Markdown note manager for VS Code with local file support and reminder support.
 
-![Icon](resources/logo.png)
 
 ## Features in Action
 
