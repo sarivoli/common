@@ -8,7 +8,7 @@
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
       <strong>Version:</strong> 0.2.19<br/>
-      <strong>Build:</strong> 1<br/>
+      <strong>Build:</strong> 3<br/>
     </td>
   </tr>
 </table>
