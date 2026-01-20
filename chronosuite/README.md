@@ -8,7 +8,7 @@
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
       <strong>Version:</strong> 0.2.4<br/>
-      <strong>Build:</strong> 1<br/>
+      <strong>Build:</strong> 16<br/>
     </td>
   </tr>
 </table>
@@ -18,7 +18,7 @@
 ChronoSuite is a sophisticated browser extension-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, ChronoSuite understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
 
 
-## v 0.2.4 - Key Features
+## v0.2.4 - Key Features
 
 ### 🚀 Dynamic Sprint Engine
 - **Auto-Generation**: Instantly generate 6-12 months of sprints based on start dates and lengths.
@@ -51,6 +51,34 @@ ChronoSuite is a sophisticated browser extension-based planning suite designed t
 - **Rule-Centric Coloring**: Events are colored based on their associated Rule colors for maximum visual clarity.
 - **Sticky Headers**: Scroll-friendly calendar grid with sticky month navigation and day-of-week headers.
 - **Adaptive Sizing**: Popup window automatically scales to content for a cleaner extension experience.
+
+## Installation & Build
+
+### Development Setup
+1. Clone the repository.
+2. Run `npm install`.
+3. Run `npm run dev` to start the Vite development server.
+
+### Building for Production
+To create the extension packages for Chrome, Firefox, and Edge:
+```bash
+npm run build
+```
+This command will:
+1. Sync the version from `package.json` to all manifest files.
+2. Build the project using Vite.
+3. Generate zip files in the `builds/` directory (e.g., `chronosuite-chrome-v0.2.4.zip`).
+
+### Loading the Extension
+**Chrome/Edge**:
+1. Go to Extensions page (`chrome://extensions` or `edge://extensions`).
+2. Enable "Developer mode".
+3. Drag and drop the generated `.zip` file or unzip it and click "Load unpacked" pointing to the folder.
+
+**Firefox**:
+1. Go to `about:debugging`.
+2. Click "This Firefox".
+3. Click "Load Temporary Add-on" and select the .zip file.
 
 ---
 *© 2026 www.arivoli.in All rights reserved.*
