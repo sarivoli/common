@@ -1,13 +1,13 @@
 <table border="0" cellspacing="0" cellpadding="0"> 
   <tr>
     <td style="border:none; padding-right:20px;" valign="top">
-      <img src="https://raw.githubusercontent.com/sarivoli/common/bf46ef808f5d2412e9f9a2921eb63a7e922b274e/chronosuite/ChronoSuite__logo.png" width="200" /> 
+      <img src="https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/devloop/devloop_logo.png" width="200" /> 
     </td>
     <td style="border:none;" valign="top">
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.18<br/>
+      <strong>Version:</strong> 0.2.19<br/>
       <strong>Build:</strong> 1<br/>
     </td>
   </tr>
