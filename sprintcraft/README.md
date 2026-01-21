@@ -1,7 +1,7 @@
 <table border="0" cellspacing="0" cellpadding="0"> 
   <tr>
     <td style="border:none; padding-right:20px;" valign="top">
-      <img src="https://raw.githubusercontent.com/sarivoli/common/bf46ef808f5d2412e9f9a2921eb63a7e922b274e/sprintcraft/SprintCraft__logo.png" width="200" /> 
+      <img src="https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/sprintcraft/SprintCraft_logo.png" width="200" /> 
     </td>
     <td style="border:none;" valign="top">
       <h2>SprintCraft</h2> 
