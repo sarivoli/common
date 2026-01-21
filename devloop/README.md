@@ -8,7 +8,7 @@
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
       <strong>Version:</strong> 0.2.21<br/>
-      <strong>Build:</strong> 4<br/>
+      <strong>Build:</strong> 14<br/>
     </td>
   </tr>
 </table>
@@ -21,6 +21,9 @@ Unified Development Workflow & Workspace Orchestration in VS Code editor.
 
 - 🎨 **Branding Refresh**: Updated application logo and icon set across the extension for a modern look.
 - 🖼️ **Sidebar Icons**: Enhanced sidebar with professional icons for Repository Workspace, Effort Report, and Configuration tabs.
+- 🌳 **Branch Selection & Switching**: New dropdown menu in the Repository Workspace allows for quick branch switching and tag selection directly from the sidebar.
+- 📊 **Progress Visibility**: Real-time progress indicators for workspace preparation, showing exact count of repositories processed.
+- 🔄 **Smart Branching**: Workspace preparation now automatically pulls the latest changes from the base branch before creating new feature branches, ensuring a conflict-free start.
 
 ## v0.2.20 Key Features
 
