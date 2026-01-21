@@ -7,8 +7,8 @@
       <h2>SprintCraft</h2> 
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.6<br/>
-      <strong>Build:</strong> 9<br/>
+      <strong>Version:</strong> 0.2.7<br/>
+      <strong>Build:</strong> 5<br/>
     </td>
   </tr>
 </table>
@@ -17,15 +17,12 @@
 
 SprintCraft is a sophisticated browser extension-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, SprintCraft understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
 
+## v0.2.7 - Recurring Rules Enhancement
 
-## v0.2.5 - Firefox & Compliance Updates
-
-### 🦊 Firefox Compliance
-- **Manifest V3 Updates**: Added required `browser_specific_settings` including Add-on ID and data collection declarations to meet Mozilla's validation standards.
-- **Privacy Declarations**: Explicitly declared data collection policies in manifest for smoother store submission.
-
-### 🛠️ General
-- **Build System**: Reset build number sequence for new version cycle.
+### 🔄 Enhanced Scheduling
+- **Recurring Constraints**: Added support for defining "Stop Conditions" for recurring events (e.g., Daily Stand-ups).
+- **Sprint-Bounded Rules**: Daily and Weekly rules anchored to a sprint now automatically respect the sprint end date by default, preventing infinite recurrence.
+- **Template Config**: Updated Sprint Templates to support explicit end conditions (Sprint End, Count, etc.).
 
 ## v0.2.4 - Key Features
 
