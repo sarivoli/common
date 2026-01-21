@@ -7,8 +7,8 @@
       <h2>ChronoSuite</h2> 
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.4<br/>
-      <strong>Build:</strong> 16<br/>
+      <strong>Version:</strong> 0.2.5<br/>
+      <strong>Build:</strong> 1<br/>
     </td>
   </tr>
 </table>
@@ -17,6 +17,15 @@
 
 ChronoSuite is a sophisticated browser extension-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, ChronoSuite understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
 
+
+## v0.2.5 - Firefox & Compliance Updates
+
+### 🦊 Firefox Compliance
+- **Manifest V3 Updates**: Added required `browser_specific_settings` including Add-on ID and data collection declarations to meet Mozilla's validation standards.
+- **Privacy Declarations**: Explicitly declared data collection policies in manifest for smoother store submission.
+
+### 🛠️ General
+- **Build System**: Reset build number sequence for new version cycle.
 
 ## v0.2.4 - Key Features
 
