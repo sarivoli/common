@@ -7,8 +7,8 @@
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.19<br/>
-      <strong>Build:</strong> 3<br/>
+      <strong>Version:</strong> 0.2.21<br/>
+      <strong>Build:</strong> 4<br/>
     </td>
   </tr>
 </table>
@@ -17,7 +17,17 @@
 
 Unified Development Workflow & Workspace Orchestration in VS Code editor.
 
-## Key Features
+## v0.2.21 Key Features
+
+- 🎨 **Branding Refresh**: Updated application logo and icon set across the extension for a modern look.
+- 🖼️ **Sidebar Icons**: Enhanced sidebar with professional icons for Repository Workspace, Effort Report, and Configuration tabs.
+
+## v0.2.20 Key Features
+
+- 🎨 **UI Refinement**: Removed the logo from the sidebar header for a cleaner look.
+- 📘 **User Guide Link**: Updated the "User Guide" link in the sidebar footer to point to the correct documentation version.
+
+## v0.2.19 Key Features
 
 - ✅ **Jira Integration**: Fetch tickets, post comments, log work time
 - ✅ **Git Provider Integration**: GitHub/GitLab/Bitbucket support for PR creation
