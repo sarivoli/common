@@ -8,7 +8,7 @@
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
       <strong>Version:</strong> 0.2.6<br/>
-      <strong>Build:</strong> 5<br/>
+      <strong>Build:</strong> 9<br/>
     </td>
   </tr>
 </table>
