@@ -39,7 +39,8 @@ Located in the VS Code sidebar, the **Settings Panel** provides:
 - **Current Settings Display**: View active theme and animation
 
 **How to Use:**
-- Click any notation button to insert at cursor position
+- Click the **Insert Snippet** button (💾) on any widget header to insert it instantly
+- Expand widget details to see attributes and specific insert options
 - Select text before clicking to wrap it with the notation
 - Use "Change Theme" or "Change Animation" buttons to modify presentation appearance
 
@@ -52,6 +53,9 @@ The **Actions Panel** provides three core actions:
 | **Preview Presentation** | Opens HTML preview in your default browser | Command Palette: `MarkDeck: Preview` |
 | **Export Presentation** | Exports to standalone HTML file | Command Palette: `MarkDeck: Export` |
 | **Sample MarkDeck** | Loads example presentation for learning | Command Palette: `MarkDeck: Sample` |
+| **Insert Widget** | Opens searchable list of widgets | Command Palette: `MarkDeck: Insert Widget...` |
+| **Validate Presentation** | Manually checks for syntax errors | Command Palette: `MarkDeck: Validate Presentation` |
+| **Toggle Linting** | Enables/Disables real-time checking | Command Palette: `MarkDeck: Toggle Real-time Linting` |
 
 ---
 
@@ -632,4 +636,4 @@ Flip cards are interactive
 
 **Created with ❤️ for developers who present**
 
-*Version 1.3.0 | MIT License*
+*Version 1.4.0 (Build 1) | MIT License*
