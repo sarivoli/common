@@ -6,7 +6,7 @@
     <td style="border:none;" valign="top">
       <h2>Ticket360</h2> 
       <i>THE ULTIMATE BROWSER EXTENSION FOR JIRA TICKET MANAGEMENT</i> <br/><br/>
-      <strong>Version:</strong> 1.6.1<br/>
+      <strong>Version:</strong> 1.6.2<br/>
       <strong>Build:</strong> 1<br/>
     </td>
   </tr>
@@ -39,58 +39,18 @@ Ticket360 is built with security in mind:
 
 ---
 
-# TICKET360 USER GUIDE
+---
 
-## TICKET360: THE ULTIMATE BROWSER EXTENSION FOR JIRA TICKET MANAGEMENT
+# 📚 [TICKET360 USER GUIDE](./USER_GUIDE.md)
 
-### WHAT IS TICKET360?
+For a detailed step-by-step walkthrough, real-life use cases, and frequently asked questions, please refer to our **[Comprehensive User Guide](./USER_GUIDE.md)**.
 
-A Browser extension that transforms Jira ticket management with a unified 360° view. Stop switching tabs and losing ticket context - get everything in one intelligent dashboard.
-
-### CORE FEATURES
-
-#### UNIFIED DASHBOARD
-
-*   Complete ticket overview with smart visual indicators
-*   Real-time status tracking with precision timestamps
-*   Professional HTML export for stakeholder reports
+### QUICK HIGHLIGHTS:
 *   **Dynamic Field History**: Click on any field in the "Overview" tab to view its detailed history.
-
-#### SMART ANALYTICS
-
-*   **Status History:** Complete timeline with duration analysis
-*   **Ownership tracking:** Full assignment history with accountability gaps
-
-#### ENHANCED COMMUNICATION
-
-*   Latest comments first with rich text rendering
-*   Clear author attribution and timestamps
-*   Organized thread management
-*   **Enhanced Comment Copy**: Copy comments with ticket context and a direct link to the comment in Jira.
-
-#### GUIDED TOUR
-
-*   **Interactive Tour**: A step-by-step guided tour to introduce new users to the extension's key features.
-
-### KEY CAPABILITIES
-
-#### CONFIGURATION
-
-*   One-time Jira setup (URL + API token)
-*   Custom field selection with drag-drop organization
-*   Multi-instance support for enterprise environments
-
-#### PROFESSIONAL EXPORT
-
-*   Executive-ready HTML tables
-*   One-click copy to clipboard
-*   Perfect for status reports and documentation
-
-#### SECURITY
-
-*   100% local browser processing
-*   Encrypted credential storage
-*   Zero external data transmission
+*   **Status History:** Complete timeline with duration analysis.
+*   **Ownership tracking:** Full assignment history with accountability gaps.
+*   **JQL Pivot Analysis**: Run complex pivot analysis (counts/totals) on search results.
+*   **Professional Export**: Executive-ready HTML reports perfectly formatted for Outlook, Word, and Excel.
 
 ---
 
@@ -104,6 +64,15 @@ A Browser extension that transforms Jira ticket management with a unified 360° 
 ---
 
 ## TICKET360 EXTENSION - RELEASE NOTES
+
+### VERSION 1.6.2
+
+**ENHANCEMENTS:**
+
+*   **Comprehensive User Guide**:
+    *   **Q&A Style Documentation**: Added a new [USER_GUIDE.md](./USER_GUIDE.md) featuring common questions and step-by-step answers.
+    *   **Real-Life Use Cases**: Included practical scenarios like "Morning Standup Prep" and "Bottleneck Analysis" to help users maximize the tool's value.
+    *   **Interactive Navigation**: Easy-to-follow steps for advanced features like Pivot Analysis and Deep Linking.
 
 ### VERSION 1.6.1
 
