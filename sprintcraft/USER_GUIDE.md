@@ -44,6 +44,10 @@ This is where the magic happens. Divided into four critical sections:
 
 ## 🧠 Mastering SprintCraft: Pro Tips & Use Cases
 
+### Creating Sprint Calendar in 15 Seconds  !
+
+![Creating Sprint Calendar in 15 Seconds](https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/sprintcraft/sprintcraft15Seconds.gif)
+
 ### 📅 Managing Time Off & Holidays
 
 #### **Q: How can I set up a shared holiday list for my entire organization?**
