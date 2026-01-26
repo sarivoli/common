@@ -7,7 +7,7 @@
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.25<br/>
+      <strong>Version:</strong> 0.2.33<br/>
       <strong>Build:</strong> 1<br/>
     </td>
   </tr>
@@ -119,6 +119,7 @@ Quick status check.
 
 ### 5. Linting Hub
 (If enabled) A central place to view linting errors across the workspace, filtered by severity.
+*   **Granular Scanning**: Individual tabs (Python, JS, HTML, Futurize) now feature dedicated "Scan" buttons, allowing you to trigger module-specific scans without running the entire suite.
 
 ---
 
