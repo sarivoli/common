@@ -7,8 +7,8 @@
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.33<br/>
-      <strong>Build:</strong> 1<br/>
+      <strong>Version:</strong> 0.2.34<br/>
+      <strong>Build:</strong> 6<br/>
     </td>
   </tr>
 </table>
@@ -16,6 +16,10 @@
 # DevLoop Workspace Manager
 
 Unified Development Workflow & Workspace Orchestration in VS Code editor.
+
+## v0.2.34 Key Features
+
+- 📖 **Comprehensive User Guide**: Major overhaul of `USER_GUIDE.md` featuring a developer-focused Q&A section, productivity workflows, and detailed configuration steps to help teams get the most out of DevLoop.
 
 ## v0.2.33 Key Features
 
