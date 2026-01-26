@@ -7,8 +7,8 @@
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.21<br/>
-      <strong>Build:</strong> 19<br/>
+      <strong>Version:</strong> 0.2.25<br/>
+      <strong>Build:</strong> 1<br/>
     </td>
   </tr>
 </table>
@@ -17,18 +17,43 @@
 
 Unified Development Workflow & Workspace Orchestration in VS Code editor.
 
-## v0.2.21 Key Features
+## v0.2.25 Key Features
 
-- 🎨 **Branding Refresh**: Updated application logo and icon set across the extension for a modern look.
-- 🖼️ **Sidebar Icons**: Enhanced sidebar with professional icons for Repository Workspace, Effort Report, and Configuration tabs.
+- 🛑 **Full Action Cancellation**: Users can now cancel long-running workspace preparation, commits, and pushes from both the dashboard and VS Code notifications.
+- 💬 **Granular Progress Details**: The progress overlay now displays exact operational steps (e.g., "Stashing changes...", "Switching to branch...") providing full transparency during complex Git tasks.
+- 🔄 **Real-time UI Sync**: Switching branches via "Prepare Workspace" now reflects in the sidebar immediately repository-by-repository, instead of waiting for the entire process to finish.
+- 🛡️ **Improved Workflow Stability**: Added safeguards to the repository refresh button to prevent race conditions during active scans or Git operations.
+
+## v0.2.24 Key Features
+
+- 🐛 **Enhanced Linting Hub**: Individual tabs now show **Issue Counts** instead of file counts, providing a more meaningful overview of project health.
+- 🔢 **Real-time Badge Updates**: The total linting issue count in the widget header now updates instantly after every scan.
+- 🔄 **Smart Reset & Restore**: Linting results are now accurately cleared at the start of a new scan for immediate feedback, and **automatically restored** if an operation is cancelled, ensuring no data loss.
+
+## v0.2.23 Key Features
+
+- 🛑 **Cancellation Support**: Added ability to cancel Repository Scanning and Linting operations midway.
+- 📢 **Operation Notifications**: New notification system providing clear success, error, or cancellation messages for background operations.
+- ✨ **Flickering Fix**: Implemented targeted UI updates to eliminate flickering when refreshing repository status or linting progress.
+- ⚡ **Optimized UI Updates**: Sidebar now uses a shallow update mechanism to improve responsiveness when only specific elements change.
+- 📘 **User Guide Link**: Updated the "User Guide" link in the sidebar footer to point to the correct documentation version.
+
+## v0.2.22 Key Features
+
+- ⚡ **Non-Blocking Linting**: Linting scans now run in the background, allowing you to continue using the task panel and other extension features without interruption.
+- 📂 **Enhanced File Detection**: Improved change detection mechanism that now robustly identifies new and untracked files for linting, even if they haven't been staged yet.
 - 🌳 **Branch Selection & Switching**: New dropdown menu in the Repository Workspace allows for quick branch switching and tag selection directly from the sidebar.
 - 📊 **Progress Visibility**: Real-time progress indicators for workspace preparation, showing exact count of repositories processed.
 - 🔄 **Smart Branching**: Workspace preparation now automatically pulls the latest changes from the base branch before creating new feature branches, ensuring a conflict-free start.
 
+## v0.2.21 Key Features
+
+- 🎨 **Branding Refresh**: Updated application logo and icon set across the extension for a modern look.
+- 🖼️ **Sidebar Icons**: Enhanced sidebar with professional icons for Repository Workspace, Effort Report, and Configuration tabs.
+
 ## v0.2.20 Key Features
 
 - 🎨 **UI Refinement**: Removed the logo from the sidebar header for a cleaner look.
-- 📘 **User Guide Link**: Updated the "User Guide" link in the sidebar footer to point to the correct documentation version.
 
 ## v0.2.19 Key Features
 
