@@ -7,7 +7,7 @@
       <h2>DevLoop</h2> 
       <i>Unified Development Workflow & Workspace Orchestration</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.25<br/>
+      <strong>Version:</strong> 0.2.33<br/>
       <strong>Build:</strong> 1<br/>
     </td>
   </tr>
@@ -16,6 +16,45 @@
 # DevLoop Workspace Manager
 
 Unified Development Workflow & Workspace Orchestration in VS Code editor.
+
+## v0.2.33 Key Features
+
+- 🐛 **Fixed Modernization Scanning**: Corrected a critical issue where Python 2 to 3 conversion issues were not being identified during scans. The `-n` flag has been correctly scoped to only apply during the "Fix" phase, ensuring dry-run scans produce accurate transformation diffs.
+
+## v0.2.32 Key Features
+
+- 🏎️ **Optimized Auto-Fix Reliability**: Fixed a common race condition where modernization issues would persist in the UI briefly after being fixed. Added intelligent delays to ensure the file system state is fully synchronized before re-scanning.
+- 🧹 **Clean Transformations**: Added the `-n` (no-backups) flag to `futurize` and `fissix` operations, preventing the creation of redundant `.bak` files during code conversion.
+
+## v0.2.31 Key Features
+
+- 🔍 **Enhanced Environment Diagnostics**: Added proactive checking for modernization tools (`fissix`, `futurize`) during the scanning phase. If critical tools are missing for the current project type, DevLoop will now explicitly prompt you to update your environment.
+- 🛠️ **Refined Path Detection**: Improved detection logic for Python tools when invoked via `python -m`, ensuring modern fallbacks are correctly identified even in customized virtual environments.
+
+## v0.2.30 Key Features
+
+- 🐍 **Modern Python Compatibility (3.13/3.14)**: Added `fissix` as a robust replacement for the deprecated `lib2to3` and `2to3` tools. This ensures that Python 2 to 3 conversion remains functional even on the latest Python interpreters where standard conversion tools have been removed.
+- 🛠️ **Seamless Fixer Fallback**: Automated the transition between `futurize`, `fissix`, and `ruff` based on the host environment, prioritizing correct syntax transformation for legacy code.
+
+## v0.2.29 Key Features
+
+- ⚡ **Immediate Scan Cancellation**: Enhanced the linting engine to respond instantly to cancellation requests, terminating active scans between file processes.
+- 🔧 **Seamless Modernization Fixes**: The "Fix All" and individual "Fix" buttons now automatically use Ruff's modernization rules when legacy Futurize components are missing, ensuring transformation is always possible.
+
+## v0.2.28 Key Features
+
+- 🛠️ **Robust Tool Detection**: Improved reliability of tool availability checks, ensuring that substitute tools (like Ruff modernizer) are correctly detected and invoked even in complex virtual environments.
+- 🔄 **Refined Futurize Fallback**: Smoother transition between legacy conversion tools and modern linting rules with consistent reporting in the Futurize tab.
+
+## v0.2.27 Key Features
+
+- 🧠 **Smart Linting Fallback**: When the environment is incompatible with legacy tools (e.g., Python 3.13+ missing `lib2to3`), DevLoop now automatically falls back to modern alternatives like **Ruff (pyupgrade rules)** to ensure transformation suggestions remain available.
+- 💬 **Improved Failure Feedback**: Clearer notifications when linting tools are substituted or disabled due to environment limitations.
+
+## v0.2.26 Key Features
+
+- 🔍 **Granular Linting Scans**: Individual tabs (Python, JS, HTML, Futurize) now feature dedicated "Scan" buttons, allowing developers to trigger module-specific scans without running the entire suite.
+- 🚀 **Futurize Independence**: Support for scanning and fixing Futurize issues independently from the main Python linting process.
 
 ## v0.2.25 Key Features
 
