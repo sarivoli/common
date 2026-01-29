@@ -8,8 +8,8 @@
       <i>Precision Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-indigo" />
       <img src="https://img.shields.io/badge/Build-Modern-emerald" /><br/>
-      <strong>Version:</strong> 0.2.7<br/>
-      <strong>Build:</strong> 5<br/>
+      <strong>Version:</strong> 0.2.8<br/>
+      <strong>Build:</strong> 3<br/>
     </td>
   </tr>
 </table>
@@ -108,6 +108,42 @@ This is where the magic happens. Divided into four critical sections:
 | **📑 Excel (XLSX)** | **Reporting & Tracking** | Perfect for PMOs. It splits your plan into monthly tabs and allows you to add custom columns for "Actual Effort" or "Assigned Resource." |
 | **📅 ICS** | **Mobile & Outlook** | Sync your automated ceremonies with your "Real Life" calendar. Import this file into Outlook or Apple Calendar to get desktop/mobile reminders. |
 | **💾 JSON** | **Backups & Team Sync** | The "Raw Core." Use this to share your exact rules with a teammate or to keep a local backup of your intelligence settings. |
+
+---
+
+### 📧 Event Attendees & ICS Improvements (v0.2.8)
+
+#### **Q: How do I add email recipients to my events so they're included when I import to Outlook/Google Calendar?**
+1. **Open Event Rule:** Navigate to **Configuration > Event Rules** and expand the rule you want to edit.
+2. **Scroll to Attendees:** Find the **Event Attendees** section (emerald-colored panel).
+3. **Add Emails:** Type an email address and press **Enter** or click **Add**.
+4. **Multiple Recipients:** Repeat to add as many attendees as needed.
+5. **Export to ICS:** When you export to ICS format, all attendees will be automatically included.
+6. **Import Ready:** When you import the ICS file into Outlook or Google Calendar, the attendees will already be configured—no manual editing required!
+
+> **💡 Pro Tip:** This is perfect for recurring ceremonies like Daily Standups or Sprint Planning. Add your team members once, and they'll be included in every occurrence when imported!
+
+#### **Q: Why don't I see duplicate events when I re-import the same ICS file?**
+SprintCraft now generates **stable, unique UIDs** for each event following the RFC 5545 standard. This means:
+- **First Import:** Creates new events in your calendar
+- **Subsequent Imports:** Updates existing events instead of creating duplicates
+- **Smart Recognition:** Calendar apps (Outlook, Google, Apple) recognize events by their UID
+- **Rule-Based Matching:** UIDs are generated from calendar ID + rule ID + date
+- **Maximum Flexibility:** You can change event title, attendees, time, frequency, or other properties in SprintCraft, re-export, and re-import—events from the same rule will be updated, not duplicated
+
+**Example Workflow:**
+1. Create "Daily Standup" rule with 3 attendees and export to ICS
+2. Import into Outlook—events are created
+3. Realize you need to:
+   - Rename to "Morning Sync"
+   - Add 2 more attendees
+   - Change time from 9:00 AM to 9:30 AM
+4. Update the same rule in SprintCraft, re-export, and re-import into Outlook
+5. ✅ Existing events are updated with new title "Morning Sync", 5 attendees, and new time—no duplicates!
+
+**Important Note:** If you **delete** a rule and create a **new** rule (even with the same name), it will create new events because it has a different rule ID. The old events will remain in your calendar and can be manually deleted if needed.
+
+The UID format is: `{calendar-id}-{rule-id}-{date}@sprintcraft.arivoli.in`
 
 ---
 
