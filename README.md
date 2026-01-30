@@ -45,6 +45,7 @@ This repository is automatically updated with the latest releases, privacy polic
   <tr>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/sarivoli/common/tree/main/products/Ticket360">Ticket360 Browser Extension</a></h3>
+      <div align="center"><a href="https://github.com/sarivoli/common/tree/main/products/Ticket360"><img src="https://raw.githubusercontent.com/sarivoli/common/main/products/Ticket360/assets/Ticket360_logo.png" width="100" style="border-radius:10px" /></a></div>
       <p align="center">
         <b>Version:</b> `1.6.2` <br/>
         <a href="https://github.com/sarivoli/common/tree/main/products/Ticket360">📄 Documentation</a> | <a href="https://github.com/sarivoli/common/tree/main/products/Ticket360/PRIVACY.md">🔒 Privacy Policy</a>
