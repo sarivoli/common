@@ -7,8 +7,8 @@
       <h2>SprintCraft</h2> 
       <i>Planning, Engineered.</i> <br/><br/>
       <img src="https://img.shields.io/badge/Status-Beta-yellow" /><br/>
-      <strong>Version:</strong> 0.2.7<br/>
-      <strong>Build:</strong> 5<br/>
+      <strong>Version:</strong> 0.2.8<br/>
+      <strong>Build:</strong> 3<br/>
     </td>
   </tr>
 </table>
@@ -16,6 +16,23 @@
 ## Overview
 
 SprintCraft is a sophisticated browser extension-based planning suite designed to automate the chaos of sprint scheduling. It transforms raw configuration rules into conflict-free, production-ready calendars. Unlike generic calendar tools, SprintCraft understands the nuances of software development lifecycles—sprints, ceremonies, maintenance windows, and global holidays.
+
+## v0.2.8 - Operational Flexibility & Data Governance
+
+### 🏗️ Dynamic Structural Taxonomy (Custom "Type" Field)
+*   **Agnostic Workflow Support**: Transitioned from a fixed "Sprint" nomenclature to a user-definable terminology system. 
+*   **System-Wide Adaptability**: Dynamically updates the global interface—generators, navigation, rules, and export headers—to reflect your specific framework (e.g., *Releases, Maintenance Cycles, Product Sprints*).
+
+### � High-Intensity Stakeholder Orchestration
+*   **Compact Attendee Visualization**: Refactored recipient management into a high-density "chip" architecture, optimizing screen real estate for complex planning.
+*   **Cross-Rule Synchronization**: Introduced **Copy/Paste intelligence**, allowing operators to instantaneously propagate attendee lists from one ceremony rule to another, eliminating redundant data entry.
+
+### 🌎 Universal Holiday Governance
+*   **Bi-Directional Data Mobility**: Implemented granular **Export/Import** capabilities for both Local (Project) and Global non-working days.
+*   **Standardized JSON Protocol**: Integrated a built-in JSON specification bridge to facilitate seamless bulk uploads and cross-team synchronization of holiday schedules.
+
+### 📧 Enterprise-Grade Interoperability
+*   **Rich Metadata Integration**: ICS exports now include integrated **Attendee support** and **Stable UIDs**, ensuring conflict-free updates and executive-level fidelity when interfacing with Microsoft Outlook, Google Calendar, and Apple Calendar.
 
 ## v0.2.7 - Recurring Rules Enhancement
 
