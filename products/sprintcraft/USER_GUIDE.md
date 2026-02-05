@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/Status-Beta-indigo" />
       <img src="https://img.shields.io/badge/Build-Modern-emerald" /><br/>
       <strong>Version:</strong> 0.2.8<br/>
-      <strong>Build:</strong> 3<br/>
+      <strong>Build:</strong> 20<br/>
     </td>
   </tr>
 </table>
