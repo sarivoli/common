@@ -7,7 +7,7 @@
       <h2>Note with VS</h2> 
       <i>A Markdown note manager for VS Code with local file support and reminder support.</i> <br/><br/>
       <strong>Version:</strong> 1.3.0<br/>
-      <strong>Build:</strong> 7<br/>
+      <strong>Build:</strong> 12<br/>
     </td>
   </tr>
 </table>
@@ -18,6 +18,7 @@ Note with VS helps developers organize their thoughts. With a new **immersive Da
 ## Features
 
 *   **Immersive Dashboard View**: View all your notes, reminders, and templates in a full-screen, visually stunning dashboard.
+*   **Recursive Note Discovery**: (New in v1.3.1) Dashboard now correctly displays all notes from all subfolders, regardless of nesting depth.
 *   **Multi-Folder Support**: Configure multiple base directories for your notes and manage them independently in a unified workspace view.
 *   **Recursive Folder Scanning**: Organize your notes using nested subfolders, all scanned up to a configurable depth (default 5).
 *   **Todo List & Reminders**: Dedicated view for task-based reminders (`- [ ] @due(...)`) and a "Todo list" for plain tasks without due dates.
@@ -121,11 +122,43 @@ Templates are listed in the "Templates" view. Click to copy content or use the c
 
 ## Release Notes
 
-### 1.3.0
+### 1.3.0 (Build 10)
 
-*   **Dashboard View**: New "Open Dashboard" command provides a full-window overview of your notes (Card View), reminders (Agenda Calendar), and templates (Sticky Notes).
-*   **Visual Enhancements**: Improved UI aesthetics with VS Code theme integration.
-*   **Performance**: Optimized note scanning and rendering.
+*   **Unified Side-by-Side Workflow**: Extended the stable split-view behavior to **Template Edits**. Editing a sticky note template now targets the existing split view on the right while preserving your dashboard focus.
+*   **Workflow Consistency**: Integrated Build 9 changes.
+
+### 1.3.0 (Build 8)
+
+*   **Stable Side-by-Side Viewing**: Opening a note from the Dashboard now intelligently targets a single secondary column. It no longer creates endless split views on every click.
+*   **Preserved Dashboard Focus**: When a note opens on the right, the Dashboard now remains active. This allows you to quickly click through multiple notes to preview them without the UI "jumping" focus.
+
+### 1.3.0 (Build 6)
+
+*   **Split View Note Opening**: Notes clicked from the Dashboard now automatically open in a **Split View (Beside)**, allowing you to browse the dashboard and read notes simultaneously.
+*   **Workflow Consistency**: Integrated Build 5 changes (Package reset).
+
+### 1.3.0 (Build 4)
+
+*   **Smart Calendar Boxes**: The calendar date box is now only shown for reminders with due dates, keeping general todos clean and compact.
+*   **Optimized Date Square**: Refined the spacing for Month, Day, and Year inside the calendar box to prevent edge overlapping and improve readability.
+*   **Build Reset Fix**: Integrated recent build number updates.
+
+### 1.3.0 (Build 2)
+
+*   **UI Layout Shift**: Moved the calendar date square for reminders to the left side for better visual alignment.
+*   **Reminder Visibility Fix**: Completed reminders are now correctly filtered out from the active agenda list after being checked.
+*   **Styling Refinements**: Enhanced the calendar square with better padding and margins.
+
+### 1.3.0 (Build 28)
+
+*   **Immersive Dashboard View**: A full-window overview of your notes (Card View), reminders (Agenda Calendar), and templates (Sticky Notes).
+*   **Professional Timeline UI**: Notes are automatically grouped into **Today Edited**, **This Week Edited**, and **Remaining**.
+*   **Live Sync Progress**: A new progress overlay with live status updates when synchronizing with Git repositories.
+*   **Calendar-Style Reminders**: Due dates in the Agenda are now displayed as elegant calendar day boxes.
+*   **Relative Dates & Tooltips**: Natural language dates (e.g., "2 hr ago") with full-precision timestamp tooltips.
+*   **Dashboard Feedback**: Real-time toast notifications for renaming, deleting, and completing tasks.
+*   **Configurable Default View**: Toggle between the classic Sidebar and the new Immersive Dashboard as your primary entry point.
+*   **Visual Enhancements**: Full VS Code theme integration with glassmorphism aesthetics and polished animations.
 
 ### 1.2.1
 
