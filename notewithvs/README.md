@@ -7,7 +7,7 @@
       <h2>Note with VS</h2> 
       <i>A Markdown note manager for VS Code with local file support and reminder support.</i> <br/><br/>
       <strong>Version:</strong> 1.3.0<br/>
-      <strong>Build:</strong> 12<br/>
+      <strong>Build:</strong> 14<br/>
     </td>
   </tr>
 </table>
@@ -18,7 +18,7 @@ Note with VS helps developers organize their thoughts. With a new **immersive Da
 ## Features
 
 *   **Immersive Dashboard View**: View all your notes, reminders, and templates in a full-screen, visually stunning dashboard.
-*   **Recursive Note Discovery**: (New in v1.3.1) Dashboard now correctly displays all notes from all subfolders, regardless of nesting depth.
+*   **Guided Setup Landing Page**: (New in v1.3.0) The Dashboard and Sidebar now provide friendly configuration guides if no note folders are set, making it easy for new users to get started.
 *   **Multi-Folder Support**: Configure multiple base directories for your notes and manage them independently in a unified workspace view.
 *   **Recursive Folder Scanning**: Organize your notes using nested subfolders, all scanned up to a configurable depth (default 5).
 *   **Todo List & Reminders**: Dedicated view for task-based reminders (`- [ ] @due(...)`) and a "Todo list" for plain tasks without due dates.
@@ -122,7 +122,18 @@ Templates are listed in the "Templates" view. Click to copy content or use the c
 
 ## Release Notes
 
-### 1.3.0 (Build 10)
+### 1.3.0 (Build 14)
+
+*   **Sidebar Welcome Views**: Added beautiful "Configuration Needed" landing pages to the Notes, Reminders, and Templates sidebars.
+*   **Unified Setup Experience**: The sidebar now matches the Dashboard's guided setup, providing clear instructions and shortcuts when no folders are configured.
+
+### 1.3.0 (Build 13)
+
+*   **Guided Configuration Landing Page**: Implemented a dedicated "Configuration Needed" landing page for the Dashboard when no note folders are configured. This guides new users to settings with a clear call-to-action.
+*   **UI Logic Consolidation**: Refactored the Dashboard's script and HTML structure for better consistency and performance between empty and populated states.
+*   **Recursive Note Discovery Enhancement**: Verified and optimized deep scanning for notes across all subfolders.
+
+### 1.3.0 (Build 12)
 
 *   **Unified Side-by-Side Workflow**: Extended the stable split-view behavior to **Template Edits**. Editing a sticky note template now targets the existing split view on the right while preserving your dashboard focus.
 *   **Workflow Consistency**: Integrated Build 9 changes.
