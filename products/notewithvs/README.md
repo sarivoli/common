@@ -32,6 +32,17 @@ Note with VS helps developers organize their thoughts. With a new **immersive Da
 
 ## Features in Action
 
+
+
+### All Notes Dashboard (v1.3.0)
+![All Notes](https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/products/notewithvs/assets/notewithvs_all_notes.png)
+
+### Reminders Dashboard (v1.3.0)
+![Reminders](https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/products/notewithvs/assets/notewithvs_reminders.png)
+
+### Templates Dashboard  (v1.3.0)
+![Templates](https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/products/notewithvs/assets/notewithvs_template.png)
+
 ### Installation
 ![Installation Demo](https://static.wixstatic.com/media/1c4343_136ce419f57c405d988ddaa03531f245~mv2.gif)
 
