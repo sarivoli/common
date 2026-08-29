@@ -1,13 +1,23 @@
 <table border="0" cellspacing="0" cellpadding="0"> 
   <tr>
     <td style="border:none; padding-right:20px;" valign="top">
-      <img src="https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/Ticket360/ticket360.png" width="200" /> 
+      <img src="https://raw.githubusercontent.com/sarivoli/common/refs/heads/main/products/Ticket360/assets/ticket360_logo.png" width="200" /> 
     </td>
     <td style="border:none;" valign="top">
       <h2>Ticket360</h2> 
       <i>THE ULTIMATE BROWSER EXTENSION FOR JIRA TICKET MANAGEMENT</i> <br/><br/>
-      <strong>Version:</strong> 1.6.2<br/>
-      <strong>Build:</strong> 1<br/>
+
+
+<div align="center">
+
+[![Version](https://img.shields.io/badge/version-1.8.0-blue.svg)](https://github.com/sarivoli/ticket360)
+<br/>
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Available-green.svg)](https://chrome.google.com/webstore)
+[![Firefox Add-ons](https://img.shields.io/badge/Firefox-Available-orange.svg)](https://addons.mozilla.org)
+[![Edge Add-ons](https://img.shields.io/badge/Edge-Available-blue.svg)](https://microsoftedge.microsoft.com/addons)
+[![Opera Add-ons](https://img.shields.io/badge/Opera-Available-red.svg)](https://addons.opera.com)
+
+</div>
     </td>
   </tr>
 </table>
@@ -18,26 +28,57 @@
 
 **Ticket360** is the ultimate browser extension for Jira ticket management, providing a unified 360-degree view of your tickets directly within your browser. Stop switching tabs—get everything in one intelligent dashboard.
 
-## 🚀 Key Features
+---
 
-- **Unified Dashboard**: Complete ticket overview with smart visual indicators.
-- **Advanced JQL Search**: Powerful issue searching directly from the popup.
-- **JQL Pivot Analysis**: Run complex pivot analysis (counts/totals) on search results with an intuitive drag-and-drop designer.
-- **Premium HTML Export**: Executive-ready HTML reports (Overview, Links, JQL, Pivot) perfectly formatted for Outlook, Word, and Excel.
-- **Dynamic Field History**: View detailed timelines for any configured field, including duration analysis.
-- **Smart Analytics**: Status and assignee history with accountability tracking.
-- **Interactive Guided Tour**: Smart onboarding to help you get the most out of the extension.
-- **Context Menu Integration**: Quick access to Jira tickets and searches from any webpage.
+## 🌟 Key Features
 
+### 🚀 1. Instant Jira Mission Control on Every New Tab!
+Stop opening dozens of browser tabs just to check Jira issue status! Ticket360 transforms your blank browser new tab into a zero-lag, executive-grade Jira Command Center (`Ctrl+T` / `Cmd+T`).
+
+### 📊 2. High-Impact Interactive Widgets: Live KPIs, JQL Charts & Smart Lists!
+Transform raw Jira data into rich visual signals:
+- **KPI Metric Cards**: Real-time counter cards with percentage workload breakdown badges (`% of total`).
+- **Dynamic JQL Charts**: Visual distribution graphs (Pie, Donut, Vertical Bar) grouped by Priority, Assignee, Component, or Custom Fields.
+- **Custom Ticket List Cards**: Interactive issue tables with custom column selection and sorting.
+
+### ⚡ 3. Instant JQL-to-Pivot Engine: Slice Any Search Query into Interactive 2D Heatmaps!
+Turn complex JQL queries into dynamic 2D cross-tabulation heatmaps (Row $\times$ Column). Cross-reference Assignees against Statuses, Priorities, or Issue Types with 1-click cell drill-down modals and visual workload intensity scaling.
+
+### 🔍 4. Granular Field-Level History Timeline: Audit Status, Assignee & Priority Changes in 1 Click!
+Inspect the exact historical evolution of any Jira field (Status, Assignee, Priority, Severity, Component) with precise duration analysis. Identify bottlenecks instantly by seeing who held a ticket, for how long, and when it transitioned.
+
+### 📈 5. Daily Progress Trend Reports: 1-Click SVG Velocity Lines & Daily Delta Snapshots on Every Widget!
+Track daily sprint momentum over time! Every KPI widget auto-logs daily count snapshots (`kpiDailyHistory`). Click any card to launch full-screen SVG line graphs with timeframe range selectors (`7 Days` to `60 Days`) and net daily progress badges (`🟢 -4 Closed`, `🔴 +6 Defects`).
+
+### 📋 6. Executive HTML Copy & Share: Paste Styled Table Reports Directly into Outlook, Word, Teams & Slack!
+Never manually format Jira status updates again! 1-click **Copy as HTML** exports professionally styled executive tables (Overview, JQL Results, Pivot Matrices) pre-formatted for seamless pasting into Outlook emails, Word documents, Teams, and Slack chats.
+
+### 🎨 7. Ultimate Workspace Customization: Tailor Grid Layouts, Cards & Columns in Seconds!
+Tailor your mission control to match your exact screen setup and workflow:
+- Toggle responsive 2, 3, or 4 grid columns for 4K monitors or laptop displays.
+- Customize visible table columns, reorder display fields, and organize widgets into tabbed configuration cards.
+
+### 🌓 8. Seamless Obsidian Dark & Solar Light Themes across Your Entire Extension!
+Experience a stunning, glassmorphic visual redesign built for maximum comfort during long engineering sessions. Toggle between **Obsidian Dark Mode** and **Solar Light Mode** with instant, 1-click cross-window synchronization across your Dashboard, Options page, Popup, and Ticket Drawers.
+
+### ⏱️ 9. Smart Date Display: Instant Relative Age Badges & Precise Timestamp Tooltips!
+Never decode raw Jira timestamps again! Smart Date Display converts date and time fields across all widgets, lists, and drawers into intuitive relative age badges (e.g. `just now`, `2 hrs`, `1 day`, `7 mos`) with full exact date tooltips on mouseover.
+
+### 🌐 10. Work Unstoppable: Full Offline Review & Candidate Ticket Cache!
+Stay productive on flights, trains, or without VPN connectivity! All dashboard widgets, KPI cards, drill-down modals, trend reports, and detail drawers render cached candidate data seamlessly with space-saving database status icons (`<i class="fas fa-database"></i> Cached`).
+
+### 📝 11. Multi-Tab Sticky Notes with `@` Ticket Autocomplete!
+Ditch desktop Notepad! Maintain daily tasks across 3 color-coded tabs (`Todo`, `Critical`, `Temp`) featuring cursor-aligned `@` ticket mentions and 1-click side drawer ticket inspection.
+
+---
 
 ## 🔒 Security & Privacy
 
 Ticket360 is built with security in mind:
 - **100% Local Processing**: Your Jira data is processed entirely within your browser.
 - **Encrypted Storage**: Credentials and settings are stored locally using browser encryption.
+- **Optional Data De-Identification**: Anonymize project keys, summaries, usernames, and domain URLs with 1-click privacy redaction for safe sharing and offline demos.
 - **Zero External Tracking**: We never transmit your data to external servers.
-
----
 
 ---
 
@@ -45,25 +86,72 @@ Ticket360 is built with security in mind:
 
 For a detailed step-by-step walkthrough, real-life use cases, and frequently asked questions, please refer to our **[Comprehensive User Guide](./USER_GUIDE.md)**.
 
-### QUICK HIGHLIGHTS:
-*   **Dynamic Field History**: Click on any field in the "Overview" tab to view its detailed history.
-*   **Status History:** Complete timeline with duration analysis.
-*   **Ownership tracking:** Full assignment history with accountability gaps.
-*   **JQL Pivot Analysis**: Run complex pivot analysis (counts/totals) on search results.
-*   **Professional Export**: Executive-ready HTML reports perfectly formatted for Outlook, Word, and Excel.
-
----
-
-### PRO TIPS
-
-*   Use HTML export for professional stakeholder updates
-*   Leverage color-coded duration alerts to identify bottlenecks
-*   Customize field templates for consistent team reporting
-*   Export assignment history for retrospective analysis
-
 ---
 
 ## TICKET360 EXTENSION - RELEASE NOTES
+
+### VERSION 1.8.0
+
+**MAJOR NEW FEATURES, POPUP REDESIGN, GUIDED TOURS & ENGINE ENHANCEMENTS:**
+
+*   **Instant Jira Mission Control on Every New Tab**:
+    *   **Auto-Launching Dashboard**: Transforms your browser new tab page into a zero-lag executive Jira workspace (`Ctrl+T` / `Cmd+T`).
+    *   **Stale-While-Revalidate Sync**: Displays cached metrics instantly while silently background-syncing with Jira REST APIs.
+
+*   **High-Impact Interactive Widgets & Analytics**:
+    *   **KPI Metric Cards with Percentage Badges**: Real-time workload distribution percentage badges (`% of total`) across To Do, In Progress, and Done.
+    *   **Dynamic JQL Pie, Donut & Bar Charts**: Visual distribution graphs grouped by Priority, Component, Assignee, or Custom Fields.
+    *   **Instant JQL-to-Pivot Matrix Engine**: Cross-tabulate assignees $\times$ statuses with 1-click cell drill-down modals and workload heatmaps.
+    *   **Daily Progress Trend Reports**: Automated daily KPI snapshot tracking with SVG trend line charts, timeframe range selectors (7 to 60 days), net daily delta badges (`🟢 -4`, `🔴 +6`), and historical snapshot log tables.
+
+*   **3-View Interactive Guided Tour Engine**:
+    *   **Popup Window Tour**: Multi-step tour covering header actions, search mode tabs (Ticket Search vs JQL Search), single ticket lookup, 360° overview, field history timeline, linked tickets, comment author filters, search history, and 2D pivot matrices.
+    *   **Dashboard Workspace Tour**: Interactive guided tour covering search bar, 360° view, Jira links, theme toggling, options shortcut, grid layout, total count badges, action toolbars, and detail drawers.
+    *   **Options Workspace Tour**: Automated tour spanning System Overview & Health, Configurations, Dashboard Workspace Settings, Feedback, and Backup/Export functions.
+    *   **Automated Navigation**: Driver.js step callbacks automatically switch tabs, detail panels, and result views as the tour progresses.
+
+*   **Granular Field-Level History & Executive HTML Export**:
+    *   **Field History Timeline Drawer**: Inspect complete status, assignee, priority, and custom field change logs with duration analysis.
+    *   **Executive HTML Copy & Share**: 1-click copy formatted HTML tables directly into Outlook, Word, Teams, and Slack with inline CSS styling.
+
+*   **Premium Popup Redesign & Direct Dashboard Launcher**:
+    *   **Glassmorphic Cards & Accent Tokens**: Synced with dashboard Obsidian/Solar theme system, featuring `backdrop-filter: blur(16px)` and variable accent tokens.
+    *   **800px Expanded Viewport**: Viewport width expanded to 800px with a single unified vertical scroll container.
+    *   **1-Click Ticket Pinning**: Pin tickets directly from popup views to sync with the Dashboard Pinned Tickets widget using standard thumbtack icons (`fas fa-thumbtack`).
+
+*   **Ultimate Workspace & Column Customization**:
+    *   **Responsive Grid Layouts**: Customize dashboard grid spans (2, 3, or 4 columns) for 4K screens or laptop displays.
+    *   **Custom Column Selector**: Pick and reorder visible table columns directly on widget toolbars.
+    *   **Tabbed Configuration Cards**: Sleek tabbed configuration cards (`Basic`, `Data Source`, `Visualization`, `Columns & Sort`, `Matrix`, `Drill-Down Fields`) for intuitive customization.
+
+*   **Seamless Obsidian Dark & Solar Light Themes**:
+    *   **Universal Theme System**: 1-click toggle between Obsidian Dark Mode and Solar Light Mode with instant cross-page synchronization across Dashboard, Options, Popup, and Ticket Drawers.
+
+*   **Smart Date Display across All Date & Time Fields**:
+    *   **Relative Age Badges**: Displays intuitive relative age badges (`just now`, `2 hrs`, `1 day`, `7 mos`) across all widgets, lists, drawers, and popups.
+    *   **Timestamp Tooltips**: Hovering over any relative date badge displays a native tooltip with the full exact date and time.
+
+*   **Full Offline Mode & Network Fallback**:
+    *   **Extension-Wide Offline Review**: Dashboard Widgets, KPI Cards, Ticket List Modals, Progress Trend Reports, Ticket Detail Drawers, and JQL Searches automatically render cached issue data when offline.
+    *   **Space-Saving Offline Badges**: Offline widgets feature a subtle database icon badge (`<i class="fas fa-database"></i> Cached`) in the card header with hover tooltips explaining offline status.
+
+*   **Multi-Tab Sticky Notes with `@` Ticket Autocomplete**:
+    *   **3 Color-Coded Note Tabs**: Organize daily work under `Todo`, `Critical`, and `Temp` tabs with notebook paper styling and word counters.
+    *   **Cursor-Relative `@` Ticket Autocomplete**: Typing `@` anywhere in a note opens an instant ticket suggestion menu aligned directly under your cursor.
+    *   **1-Click Side Drawer Inspection**: Click tagged `@` tickets inside notes to open the full ticket detail drawer.
+
+*   **Firefox Navigation, Options & JQL Engine Fixes**:
+    *   **Options Navigation & Tab Hijacking Fix**: Excluded extension URLs from tab hijacking listeners, resolving unwanted redirects and `about:blank` tab creation in Firefox.
+    *   **Firefox JQL Direct Fetching**: Direct GET request handling for JQL searches in Firefox, matching Chrome and Edge behavior.
+
+*   **Robust Jira REST API Engine & JQL Search Fix**:
+    *   **Atlassian CHANGE-2046 Compliant Search**: Prioritizes `POST /rest/api/3/search/jql` for Jira Cloud and `POST /rest/api/2/search` for Data Center.
+    *   **Accurate Error Messaging**: Directly parses 400 Bad Request and 403 Forbidden responses (e.g. filter permissions or invalid JQL syntax), eliminating misleading `410 Gone` error masking.
+
+*   **Compact 2-Line Ticket Cards & Storage Governance**:
+    *   **Compact 2-Line Layout**: Cards across Tracked Tickets and Recent Searches are capped at 2 lines with icon-only badges (`📅 7 mos`, `🔄 1 mo`).
+    *   **Storage Manager & Selective Clean-up**: Real-time storage capacity monitoring with 80% capacity alert banners and granular category clean-up.
+    *   **3-Step Backup & Restore Wizard**: Backup or restore complete extension settings with API token safety toggles and seamless data preservation.
 
 ### VERSION 1.6.2
 
