@@ -12,6 +12,7 @@ If you've ever found yourself:
 - 📈 **Struggling to create** executive-ready reports from Jira data
 - ⏱️ **Wasting time** navigating through Jira's complex interface
 - 🤔 **Unable to quickly analyze** ticket patterns and bottlenecks
+- 🌐 **Locked out of your ticket data** when offline or traveling without VPN
 
 **Then Ticket360 is built for YOU!**
 
@@ -23,393 +24,183 @@ If you've ever found yourself:
 
 Ticket360 is designed around three core principles:
 
-1. **⚡ Speed** - Access ticket information instantly without page navigation
-2. **🔒 Security** - 100% local processing, zero external tracking, encrypted storage
-3. **💼 Professionalism** - Enterprise-grade exports and analytics
+1. **⚡ Speed & Instant Access** - Access ticket information instantly on every browser new tab without page navigation or loading delays
+2. **🔒 Security & Privacy** - 100% local processing, zero external tracking, encrypted storage, and optional 1-click data de-identification
+3. **💼 Professionalism & Clarity** - Executive-grade HTML exports, daily progress trend reports, and drag-and-drop pivot analytics
 
-### 🎁 Key Features
+### 🎁 Key Features & Capabilities
 
-**Ticket Intelligence:**
-- 🔍 **360° Ticket View** - Complete ticket history, comments, and links in one place
-- 📊 **Field History Tracking** - See every change to any Jira field with timeline
-- ⏱️ **Status Duration Analysis** - Identify bottlenecks with precise time tracking
-- 🔗 **Smart Context Menu** - Right-click any ticket ID to open instantly
+**🚀 1. Instant Jira Mission Control on Every New Tab!**
+Stop opening dozens of browser tabs just to check Jira issue status! Ticket360 transforms your blank browser new tab into a zero-lag, executive-grade Jira Command Center (`Ctrl+T` / `Cmd+T`).
 
-**Advanced JQL & Analytics:**
-- ⚡ **Lightning-Fast JQL Search** - Clean tabular results without Jira's clutter
-- 📈 **Interactive Pivot Tables** - Click ANY cell to drill down into tickets
-- 🎯 **Smart Totals** - Row, column, and grand totals all clickable for instant investigation
-- 🔍 **Visual Click Indicators** - Icons and tooltips show exactly what's clickable
-- 🏷️ **Custom Field Aliases** - See friendly names instead of "customfield_12345"
+**📊 2. High-Impact Interactive Widgets: Live KPIs, JQL Charts & Smart Lists!**
+Transform raw Jira data into rich visual signals:
+- **KPI Metric Cards**: Real-time counter cards with percentage workload breakdown badges (`% of total`).
+- **Dynamic JQL Charts**: Visual distribution graphs (Pie, Donut, Vertical Bar) grouped by Priority, Assignee, Component, or Custom Fields.
+- **Custom Ticket List Cards**: Interactive issue tables with custom column selection and sorting.
 
-**Collaboration & Reporting:**
-- 📋 **Copy as HTML** - Professional exports for Outlook, Word, Excel
-- 🎨 **Branded Tables** - Executive-ready formatting with automatic styling
-- 💼 **Drill-Down Exports** - Export specific pivot subsets with context preserved
-- 📊 **Column Customization** - Show/hide columns for personalized views
+**⚡ 3. Instant JQL-to-Pivot Engine: Slice Any Search Query into Interactive 2D Heatmaps!**
+Turn complex JQL queries into dynamic 2D cross-tabulation heatmaps (Row $\times$ Column). Cross-reference Assignees against Statuses, Priorities, or Issue Types with 1-click cell drill-down modals and visual workload intensity scaling.
 
-**User Experience:**
-- 🖥️ **Tab or Popup Mode** - Full-width view or compact popup
-- 🎯 **Guided Tours** - Interactive walkthroughs for every feature
-- 📜 **Search History** - Quick access to recent searches
-- ⚙️ **Flexible Configuration** - Customize fields, pivots, and preferences
+**🔍 4. Granular Field-Level History Timeline: Audit Status, Assignee & Priority Changes in 1 Click!**
+Inspect the exact historical evolution of any Jira field (Status, Assignee, Priority, Severity, Component) with precise duration analysis. Identify bottlenecks instantly by seeing who held a ticket, for how long, and when it transitioned.
+
+**📈 5. Daily Progress Trend Reports: 1-Click SVG Velocity Lines & Daily Delta Snapshots on Every Widget!**
+Track daily sprint momentum over time! Every KPI widget auto-logs daily count snapshots (`kpiDailyHistory`). Click any card to launch full-screen SVG line graphs with timeframe range selectors (`7 Days` to `60 Days`) and net daily progress badges (`🟢 -4 Closed`, `🔴 +6 Defects`).
+
+**📋 6. Executive HTML Copy & Share: Paste Styled Table Reports Directly into Outlook, Word, Teams & Slack!**
+Never manually format Jira status updates again! 1-click **Copy as HTML** exports professionally styled executive tables (Overview, JQL Results, Pivot Matrices) pre-formatted for seamless pasting into Outlook emails, Word documents, Teams, and Slack chats.
+
+**🎨 7. Ultimate Workspace Customization: Tailor Grid Layouts, Cards & Columns in Seconds!**
+Tailor your mission control to match your exact screen setup and workflow:
+- Toggle responsive 2, 3, or 4 grid columns for 4K monitors or laptop displays.
+- Customize visible table columns, reorder display fields, and organize widgets into tabbed configuration cards.
+
+**🌓 8. Seamless Obsidian Dark & Solar Light Themes across Your Entire Extension!**
+Experience a stunning, glassmorphic visual redesign built for maximum comfort during long engineering sessions. Toggle between **Obsidian Dark Mode** and **Solar Light Mode** with instant, 1-click cross-window synchronization across your Dashboard, Options page, Popup, and Ticket Drawers.
+
+**⏱️ 9. Smart Date Display: Instant Relative Age Badges & Precise Timestamp Tooltips!**
+Never decode raw Jira timestamps again! Smart Date Display converts date and time fields across all widgets, lists, and drawers into intuitive relative age badges (e.g. `just now`, `2 hrs`, `1 day`, `7 mos`) with full exact date tooltips on mouseover.
+
+**🌐 10. Work Unstoppable: Full Offline Review & Candidate Ticket Cache!**
+Stay productive on flights, trains, or without VPN connectivity! All dashboard widgets, KPI cards, drill-down modals, trend reports, and detail drawers render cached candidate data seamlessly with space-saving database status icons (`<i class="fas fa-database"></i> Cached`).
+
+**📝 11. Multi-Tab Sticky Notes with `@` Ticket Autocomplete!**
+Ditch desktop Notepad! Maintain daily tasks across 3 color-coded tabs (`Todo`, `Critical`, `Temp`) featuring cursor-aligned `@` ticket mentions and 1-click side drawer ticket inspection.
 
 ---
 
 ## 🎯 Who Should Use Ticket360?
 
-This extension is **perfect for**:
-
-- 👨‍💻 **Software Developers** - Quick ticket lookups during code reviews
-- 👔 **Project Managers** - Executive reports and bottleneck analysis
-- 🎯 **Scrum Masters** - Sprint planning and standup preparation
-- 📊 **Product Owners** - Backlog analysis and prioritization
-- 🔍 **QA Engineers** - Bug tracking and testing workflow
-- 👥 **Team Leads** - Team performance and accountability tracking
+- 👨‍💻 **Software Developers** - Quick ticket lookups during code reviews without leaving the workspace
+- 👔 **Project Managers** - Executive status reports, daily progress trend graphs, and bottleneck analysis
+- 🎯 **Scrum Masters** - Sprint planning, standup preparation, and drag-and-drop workflow status mapping
+- 📊 **Product Owners** - Backlog analysis, workload distribution heatmaps, and priority tracking
+- 🔍 **QA Engineers** - Bug tracking, testing workflow monitoring, and compact ticket lists
+- 👥 **Team Leads** - Capacity planning and team assignment tracking
 
 ---
 
 ## 🔒 Privacy & Security Commitment
 
 Your trust is our priority:
-
-- ✅ **100% Local Processing** - All data stays in your browser
-- ✅ **Encrypted Storage** - Credentials stored securely
-- ✅ **Zero Tracking** - No external data transmission
-- ✅ **No Analytics** - We don't collect usage data
-- ✅ **Open Communication** - Transparent about permissions
-
-Read our full [Privacy Policy](./PRIVACY_POLICY.md)
+- ✅ **100% Local Processing** - All data stays strictly in your browser
+- ✅ **Encrypted Storage** - Credentials and API tokens stored securely
+- ✅ **Optional 1-Click De-Identification** - Obfuscate sensitive client names and ticket titles when sharing backup files
+- ✅ **Zero External Tracking** - No external tracking or telemetry servers
 
 ---
 
-## 🚀 Quick Navigation
-- [Getting Started](#-getting-started)
-- [Ticket Analytics](#-ticket-analytics)
-- [Advanced Search & Intelligence](#-advanced-search--intelligence)
-- [Interactive Pivot Tables](#-interactive-pivot-tables)
-- [Collaboration & Reporting](#-collaboration--reporting)
-- [Troubleshooting & Security](#-troubleshooting--security)
-- [Real-Life Pro Use Cases](#-real-life-pro-use-cases)
+## 📘 Step-by-Step Feature Guides
+
+### 1. Instant Jira Mission Control on Every New Tab & Popup Pinning
+Opening a new browser tab auto-launches your customized **Jira Mission Control**:
+- **Grid Layout Selector**: Toggle 2, 3, or 4 grid columns based on your screen size.
+- **KPI Counter Cards**: Track total ticket counts and percentage workload distribution across `To Do`, `In Progress`, and `Done`.
+- **Dynamic JQL Charts**: Visualize priorities and assignees with Pie, Donut, and Bar charts.
+- **My Ticket & Tracked Ticket Widget Default Filters**: Filter "My Ticket" and "Tracked Ticket" widgets by `Issue Type`, `Status`, and `Assignee` directly from the widget header toolbars.
+- **Pinned Ticket Launcher & Popup 1-Click Pinning**: Pin high-priority tickets directly from Popup details or JQL search results table using the thumbtack icon (`📌`). Pinned tickets automatically populate your Dashboard's Tracked Tickets widget in real time.
+- **800px Popup Window Layout & Top Error Banner**: Popup toolbar window is expanded to 800px width with a single main vertical scroll container. Critical configuration alerts (such as "Please configure Jira settings first") and API errors display right at the top of the popup window above search tabs.
+- **Popup Offline Ticket & Filter Search**: Perform single ticket searches and advanced JQL/filter searches in offline mode. If network connectivity drops or Jira is unreachable, Popup search queries local `TicketCache` snapshots seamlessly, rendering cached ticket details, result tables, and pivot charts with `[Offline Cached]` badges.
+- **Direct Dashboard Navigation & Direct Jira Tab/Window Launcher**: Launch your full executive dashboard anytime by clicking the Dashboard icon button (`📊`) in the Popup header or search tabs. In both the Popup header (`#ticketTitle`) and Dashboard ticket detail right panel, clicking a ticket ID opens a new browser tab or dedicated window navigating directly to your configured Jira ticket URL (e.g. `https://jira.yourcompany.com/browse/PROJ-123`).
+- **Right-Click Context Menu & Keyboard Shortcut (`Ctrl+Shift+K`) Search**: Highlight any text, ticket key (e.g. `BANSUP-182`), filter ID, or JQL query on any web page and right-click to select **Get 360 View** or press **Ctrl+Shift+K** (or Mac **Command+Shift+K**). The extension extracts your highlighted text and launches Ticket360 in your preferred launch mode (Compact Popup or Dashboard Tab as configured in Options ➔ Global Preferences). The target view automatically loads the query, populates the search bar, executes the 360° search, and opens the ticket detail drawer or JQL search matrix directly over your workspace.
+  - *Customizing Shortcuts*: You can customize the shortcut key anytime in your browser settings (Chrome/Edge: `chrome://extensions/shortcuts`, Firefox: `about:addons` ➔ gear icon ➔ Manage Extension Shortcuts).
+
+### 2. Instant JQL-to-Pivot Matrix & Workload Heatmap
+Analyze complex workload distributions in 1 click:
+- **Drag-and-Drop JQL Pivot Analysis**: Drag and drop row $\times$ column fields (Assignee, Status, Priority, Issue Type, Project) to build custom 2D pivot heatmaps.
+- **1-Click Cell Drill-Down Modals with Type-Aware Column Sorting**: Click any matrix cell or total to open a paginated issue table filtered by row and column fields. Click any column header to sort rows dynamically by Jira key, integer/number, date/timestamp, or text string.
+
+### 3. Granular Field-Level History Timeline
+Audit field changes and identify bottlenecks:
+- Open any ticket in the side drawer or popup and click on **Status**, **Assignee**, **Priority**, or **Severity**.
+- Review the complete change log timeline with exact duration tracking for each state transition.
+
+### 4. Daily Progress Trend Reports
+Track daily sprint momentum over time:
+- Click any KPI card on your dashboard to open the SVG Trend Line graph.
+- Toggle filter pills (`7 Days`, `15 Days`, `30 Days`, `60 Days`) to inspect daily velocity trends and net daily deltas.
+
+### 5. Executive HTML Copy & Share
+Share formatted status reports in under 5 seconds:
+- Click **Copy as HTML** on any Ticket Overview, Linked Tickets table, Field History, JQL search result, pivot analysis table, or drill-down modal window in either the Popup or Dashboard.
+- All HTML exports feature a high-contrast light slate theme (`#f1f5f9` title banner, `#ffffff` query/summary subtitle, `#e2e8f0` column headers, and sharp dark `#0f172a` text with `#0284c7` underlined links).
+- Paste directly into Outlook emails, Word documents, Teams, Slack, or Excel with executive table formatting and readable text contrast intact—never hidden by black font on dark backgrounds.
+
+### 6. Ultimate Workspace Customization & Column Selection
+Tailor every card to your workflow:
+- **Custom Column Selector**: Click **Configure Fields** on any widget toolbar to select and reorder visible columns.
+- **Tabbed Configuration Cards**: Configure widgets cleanly using tabbed settings cards (`Basic`, `Data Source`, `Visualization`, `Columns & Sort`, `Matrix`, `Drill-Down Fields`).
+
+### 7. Seamless Obsidian Dark & Solar Light Themes
+Toggle visual themes with 1-click:
+- Click the sun/moon theme toggle button in the header toolbar to switch between **Obsidian Dark Mode** and **Solar Light Mode**.
+- Changes sync instantly across all open tabs, popups, and options pages.
+- **Night Theme Filter Select Dropdowns**: All filter select boxes and option menus (Type, Status, Assignee) feature custom SVG dropdown arrows, deep slate option menus (`#0f172a`), bright `#f8fafc` text, and purple accent focus rings.
+
+### 8. Smart Date Display Across All Date & Time Fields
+Read relative ticket ages effortlessly:
+- Date and time fields display relative age badges (e.g. `just now`, `15 mins`, `2 hrs`, `1 day`, `3 mos`).
+- Hover over any badge to see the exact full timestamp tooltip.
+
+### 9. Work Unstoppable: Full Offline Review
+Stay productive anywhere:
+- **Automatic Fallback**: If network drops or Jira is unreachable, widgets automatically switch to cached candidate data.
+- **Database Icon Badges**: Offline widgets show a subtle `<i class="fas fa-database"></i> Cached` badge with hover tooltips.
+- **Offline Drill-Downs**: Click any offline KPI card or matrix cell to view full cached ticket lists and detail drawers.
+
+### 10. Multi-Tab Sticky Notes with `@` Ticket Autocomplete
+Keep your scratchpad right inside your browser:
+- **3 Note Tabs**: Organize notes under `Todo`, `Critical`, and `Temp` tabs.
+- **Cursor-Relative `@` Lookup**: Type `@` anywhere in a note to open an instant ticket suggestion menu aligned under your cursor.
+- **Drawer Inspection**: Click any tagged `@` ticket inside a note to inspect comments, status history, and details.
+
+### 11. Interactive Guided Feature Tours Across All Workspaces
+Explore every feature step-by-step with zero guessing:
+- **Popup Window Tour**: Click `#tourBtn` in the popup header to launch a guided tour covering header actions, search tabs, single ticket lookup, 360° overview, field history timeline, linked issues, comment filters, JQL search, history chips, and interactive 2D pivot tables.
+- **Dashboard Workspace Tour**: Click the flag icon (`#tourBtn`) in the top right of the dashboard header to explore smart search box, `360° View` button, `Open Jira` button, theme switch, options shortcut, widget grid layout, interactive count badges, toolbar controls (`<code>`, `📈`, `📋`, `⤢`), and ticket detail drawer.
+- **Options Workspace Tour (5 Sections)**: Click the **Start Guided Tour** button in Options to automatically step through:
+  1. **System Overview & Health**: Sidebar, status health cards, quick actions, system information, storage donut monitor, and pro tips.
+  2. **Configs (Sub-tabs)**: Jira credentials setup, field selection & live fetch, workflow status mapping lanes, 2D pivot report designer, and global preferences.
+  3. **Dashboard Workspace**: Active widgets count badge, layout columns selector (1-4 columns per row), widget library palette ribbon, and active widget config cards.
+  4. **Feedback**: Rating star selector, name, suggestions, and feedback submission.
+  5. **Export & Import Backup Options**: Explains `#topExportBtn` (JSON configuration & widget backup with token exclusion safety) and `#topImportBtn` (3-step import wizard, schema validation, non-destructive smart merge).
+- **Automated Tab Switching**: The tour engine automatically clicks and opens hidden tabs, sub-tabs, and detail panels before highlighting elements so you can step through every single section seamlessly.
 
 ---
 
-## 🏁 Getting Started
+## ❓ Frequently Asked Questions (FAQ)
 
-### 1. How do I connect Ticket360 to my Jira instance?
-To get started, you'll need three key pieces of information:
-1.  **Jira URL**: e.g., `https://your-company.atlassian.net`
-2.  **Email**: The email address associated with your Jira account.
-3.  **API Token**: Generate this from your Atlassian account settings.
+### Q1. How do I pin a ticket to my Dashboard from the Popup?
+When searching for a ticket or running a JQL query in the Popup, click the thumbtack icon (`📌`) on the ticket details header or next to any JQL result row. The ticket will immediately highlight as pinned and automatically reflect in your Dashboard's **Pinned Tickets** widget.
 
-**Steps:**
-1.  Right-click the **Ticket360 icon** in your browser toolbar and select **Options**.
-2.  In the **Connection** tab, enter your Site URL, Email, and API Token.
-3.  Click **Save & Test Connection**. A green checkmark means you're ready to fly!
+### Q2. What if Jira returns a 403 or JQL syntax error when searching?
+Ticket360 uses Jira's compliant REST API (`/rest/api/3/search/jql` for Cloud, `/rest/api/2/search` for Data Center). If a filter or query has restricted permissions or invalid syntax, Ticket360 directly displays the exact error message from Jira (e.g. "A filter with id '42563' does not exist or you do not have permission to view it") so you can adjust permissions or fix the query syntax immediately.
 
-### 2. Can I open Ticket360 in a new tab instead of a popup window?
-Absolutely. If you prefer a wide-screen experience for complex JQL analysis, you can switch modes.
+### Q2. How do I export pivot tables or JQL results to Outlook or Word?
+Click the **Copy as HTML** button on the Pivot Analysis tab or JQL Search Results toolbar. Open Outlook or Word and press `Ctrl+V` to paste executive-ready tables with styling intact.
 
-**Steps:**
-1.  Open **Options** (Right-click icon -> Options).
-2.  Navigate to the **General** tab.
-3.  Check the box that says **"Open as Tab instead of Popup"**.
-4.  Now, every time you click the extension icon, it will open in a focused, high-productivity tab.
+### Q3. How do I setup my Jira connection?
+Go to **Options ➔ Jira Setup**, enter your Jira Domain URL, Email, and API Token, then click **Test & Save Connection**.
 
----
+### Q4. How do I toggle between Dark Mode and Light Mode?
+Click the sun/moon icon button in the top right header of the Dashboard, Options page, or Popup toolbar. Your theme selection syncs instantly across all open extension windows.
 
-## 📊 Ticket Analytics
+### Q5. How does Smart Date Display work?
+Smart Date Display automatically formats date and datetime fields (Created, Updated, Resolved, Custom Date Fields) into relative age badges like `2 hrs` or `1 day`. Hovering over any badge displays the full exact timestamp in a tooltip.
 
-### 3. How can I see the status history of a ticket?
-Tired of wondering why a ticket took 10 days to move? Ticket360 breaks down the timeline for you.
+### Q6. How do offline cached widgets work?
+When offline, widgets automatically load candidate ticket snapshots stored in your browser's local cache. A database icon badge (`<i class="fas fa-database"></i> Cached`) appears in the card header.
 
-**Steps:**
-1.  Search for a ticket (e.g., `PROJ-123`).
-2.  Click on the **Status History** tab.
-3.  **Insight**: You'll see a chronological log of every status change, who moved it, and exactly how many days/hours it spent in that state.
-
-### 4. How can I see the history of a specific custom field (e.g., Story Points or Priority)?
-Most tools only show status changes. Ticket360 shows you *everything*.
-
-**Steps:**
-1.  Open any ticket in the **Overview** tab.
-2.  Locate the field you're interested in (e.g., "Priority").
-3.  **Click directly on the field row**.
-4.  A detailed timeline will appear, showing every time that specific field was modified and by whom.
+### Q7. How do I access Options & Dashboard Configurations in Firefox?
+Click the gear icon (**Dashboard & Configuration**) in the top right header of the Dashboard, or click the settings gear in the Popup. Ticket360 uses cross-browser safe navigation so opening Options works seamlessly across Firefox, Chrome, Edge, and Opera.
 
 ---
 
-## 🔍 Advanced Search & Intelligence
+## 💬 Feedback & Community Support
 
-### 5. How can I get the results for a specific JQL in a clean table format?
-Skip the cluttered Jira UI and get straight to the data using our Advanced JQL search.
+- 🐛 **Report a Bug**: [GitHub Issues](https://github.com/sarivoli/ticket360/issues)
+- 💡 **Request a Feature**: [GitHub Feature Requests](https://github.com/sarivoli/ticket360/issues)
+- ⭐ **Store Reviews**: Rate Ticket360 on the Chrome Web Store, Firefox Add-ons, Edge Add-ons, Opera Add-ons, or Mac App Store / Safari Extensions!
 
-**Steps:**
-1.  Open the Ticket360 popup/tab.
-2.  Click the **JQL Search** tab at the top.
-3.  Enter your query (e.g., `project = PE AND status = "To Do" AND assignee is empty`).
-4.  Click **Search**. You'll get a lightning-fast table that you can scroll and "Load More" as needed.
-
-### 6. How can I create a Pivot Table for "Assigned User" vs. "Status"?
-Turning raw Jira data into actionable insights is what Ticket360 does best. Use the JQL Pivot analysis to spot bottlenecks instantly.
-
-**Steps:**
-1.  Run a **JQL Search** (as described in Q5).
-2.  Once results appear, click the **Pivot Analysis** button.
-3.  In the **Pivot Designer**:
-    *   Drag **Assignee** into the **Rows** zone.
-    *   Drag **Status** into the **Columns** zone.
-    *   Drag **Issue Key** into the **Values** zone.
-4.  **Result**: You now have a high-level matrix of who is doing what and where the work is piling up.
-
----
-
-## 🤝 Collaboration & Reporting
-
-### 7. I have a ticket ID in my email; how can I open it in Ticket360 instantly?
-Don't copy-paste and switch tabs. Use our **Smart Context Menu**.
-
-**Steps:**
-1.  Highlight the ticket key (e.g., `DEV-456`) in your email or on any webpage.
-2.  **Right-click** the highlighted text.
-3.  Select **Ticket360 -> Open in Ticket360**.
-4.  The extension will pop open and immediately fetch the ticket's details.
-
-### 8. How can I share a professional status report with my manager?
-Stop taking screenshots of Jira. Export executive-ready HTML tables that look perfect in Outlook, Word, or Excel.
-
-**Steps:**
-1.  View any ticket or JQL result in Ticket360.
-2.  Click the **"Copy as HTML"** button (usually at the top right).
-3.  Go to your email or document and **Paste (Ctrl+V)**.
-4.  **Result**: You'll get a beautifully formatted, color-coded, branded table that makes your reports look like they took hours to prepare.
-
----
-
-## 🛡️ Troubleshooting & Security
-
-### 9. Where are my Jira tokens stored? Is it safe?
-Your security is our top priority.
-*   **100% Local**: All your credentials and Jira data are stored **only** in your browser's local storage.
-*   **Encrypted**: We use browser-level encryption to ensure no other extension or website can access your tokens.
-*   **No Clouds**: Ticket360 never transmits your data to any external server. It’s a direct conversation between your browser and Jira.
-
-### 10. I'm unable to connect to Jira. What should I check?
-If you're seeing connection errors, follow this checklist:
-1.  **URL Format**: Ensure it starts with `https://` and doesn't end with a `/` (e.g., `https://domain.atlassian.net`).
-2.  **Token Validity**: Did your API token expire? Try generating a new one in Atlassian.
-3.  **Email Match**: Ensure the email in Ticket360 exactly matches your Atlassian account email.
-4.  **VPN/Firewall**: If you're on a corporate network, ensure Jira isn't being blocked by a local firewall.
-
----
-
-## 🌟 Real-Life Pro Use Cases
-
-### The "Standup Hero" Flow
-**Scenario**: It's 2 minutes before your morning standup and you need to know exactly what moved yesterday.
-*   **Step**: Open Ticket360, go to **JQL Search**, run `project = YOUR_PROJ AND updated >= -24h`, and copy the results as HTML. Paste it into your team chat. You're done!
-
-### The "Bottleneck Buster" Flow
-**Scenario**: A project is lagging, and you need to find out why.
-*   **Step**: Open a problematic ticket, click on **Status** field, and look for the duration cells. High numbers in "Code Review" mean your reviewers are the bottleneck.
-Note: Make sure you have added **status** column in your Jira field settings.
-
-### The "Accountability" Flow
-**Scenario**: A ticket has been bounced around between multiple people.
-*   **Step**: Click on the **Assignee** field. See who had the ticket, for how long, and when they passed it on. Perfect for post-mortems and process improvement.
-Note: Make sure you have added **assignee** column in your Jira field settings.
-
----
-
-## 🎯 Interactive Pivot Tables
-
-### 11. How can I drill down into specific pivot table cells to see the actual tickets?
-The pivot table isn't just numbers—every cell is clickable! This lets you instantly investigate what's behind any count.
-
-**Steps:**
-1. Run a **JQL Search** and switch to the **Pivot** tab.
-2. **Hover** over any cell with a number—you'll see a 🔍 icon appear.
-3. **Click** the cell, and a modal window opens showing all tickets that match that exact combination.
-4. The modal shows: Ticket keys (clickable to Jira), summaries, and all your configured fields.
-5. Click **"Copy as HTML"** to export just those specific tickets for reporting.
-
-**Real-World Example:**
-You see "5 issues" at Status: "In Progress" & Assignee: "John Doe". Click it, and you get the exact 5 tickets that are in progress and assigned to John—perfect for quick investigation!
-
-### 12. Can I see all issues for a specific row or column in the pivot table?
-Absolutely! Row and column totals are also clickable, giving you aggregated views.
-
-**Steps:**
-1. In the **Pivot** tab, look at the **row totals** (right side) or **column totals** (bottom row).
-2. **Hover** over any total—you'll see the 🔍 icon and a tooltip.
-3. **Click the row total** to see all issues for that row value across all columns.
-4. **Click the column total** to see all issues for that column value across all rows.
-
-**Real-World Example:**
-- **Row Total Click**: Click the total for Status: "Open" (e.g., 25 issues) → See all open issues regardless of assignee
-- **Column Total Click**: Click the total for Assignee: "Sarah" (e.g., 18 issues) → See Sarah's complete workload across all statuses
-
-### 13. Is there a way to export the entire pivot dataset quickly?
-Yes! The grand total is your quick access to everything.
-
-**Steps:**
-1. Look at the **grand total** (bottom-right cell of the pivot table).
-2. **Click it** to open a modal showing ALL issues in your pivot analysis.
-3. Review the complete dataset or click **"Copy as HTML"** to export everything.
-
-**Real-World Example:**
-You've configured a complex pivot analysis and want to share all the underlying data with your team. Click the grand total (e.g., 150 issues), copy as HTML, and paste into your email—done in 5 seconds!
-
-### 14. How do I know which cells in the pivot table are clickable?
-Every non-zero number in the pivot table is clickable, and we've added visual indicators to make this obvious.
-
-**Visual Cues:**
-- 🔍 **Icon**: A small magnifying glass icon appears when you hover over clickable cells
-- 💬 **Tooltip**: Shows "Click to view X issues" with context
-- 🎨 **Color Change**: Cells turn purple (value cells) or dark purple (totals) on hover
-- 📏 **Scale Effect**: Clickable cells slightly grow when hovered
-
-**What's Clickable:**
-- ✅ **Value cells** (5, 10, 3, etc.) → Shows specific row+column issues
-- ✅ **Row totals** (right column) → Shows all issues in that row
-- ✅ **Column totals** (bottom row) → Shows all issues in that column
-- ✅ **Grand total** (bottom-right) → Shows ALL issues
-
-### 15. Can I use custom field aliases in pivot tables instead of seeing "customfield_12345"?
-Yes! Ticket360 automatically resolves custom field names to their friendly aliases.
-
-**How it Works:**
-1. In **Settings → Pivot Configuration**, select your custom fields.
-2. If the field has an alias/description configured in Jira, it will display that name.
-3. In the pivot table, you'll see "Sprint" instead of "customfield_10020".
-
-**Fallback:**
-If no alias is configured, Ticket360 formats it as "Custom Field 10020" for better readability.
-
-### 16. What happens when I click a pivot cell with zero issues or an empty cell?
-Empty cells and zero-value cells are **not clickable** to avoid confusion.
-
-**Visual Feedback:**
-- Empty cells show "-" and are greyed out
-- Zero-value cells have reduced opacity
-- No icon appears on hover
-- Tooltip shows "No issues"
-- No color change or scale effect
-
-This helps you focus on cells that actually have data to explore!
-
----
-
-## 🌟 Real-Life Pro Use Cases
-
-### The "Standup Hero" Flow
-**Scenario**: It's 2 minutes before your morning standup and you need to know exactly what moved yesterday.
-*   **Step**: Open Ticket360, go to **JQL Search**, run `project = YOUR_PROJ AND updated >= -24h`, and copy the results as HTML. Paste it into your team chat. You're done!
-
-### The "Bottleneck Buster" Flow
-**Scenario**: A project is lagging, and you need to find out why.
-*   **Step**: Open a problematic ticket, click on **Status** field, and look for the duration cells. High numbers in "Code Review" mean your reviewers are the bottleneck.
-Note: Make sure you have added **status** column in your Jira field settings.
-
-### The "Accountability" Flow
-**Scenario**: A ticket has been bounced around between multiple people.
-*   **Step**: Click on the **Assignee** field. See who had the ticket, for how long, and when they passed it on. Perfect for post-mortems and process improvement.
-Note: Make sure you have added **assignee** column in your Jira field settings.
-
-### The "Workload Analyzer" Flow (NEW!)
-**Scenario**: You need to quickly check Sarah's current workload across all statuses.
-*   **Step 1**: Run a JQL query for your project/team (e.g., `project = MYPROJ AND assignee is not empty`)
-*   **Step 2**: Switch to **Pivot** tab with Status × Assignee configuration
-*   **Step 3**: Click the **column total** for Sarah (e.g., "18 issues")
-*   **Step 4**: Review all her tickets across all statuses in the drill-down modal
-*   **Result**: You instantly see her complete workload, can click "Copy as HTML" to share with management, or drill into specific status combinations
-
-### The "Sprint Deep Dive" Flow (NEW!)
-**Scenario**: You're in a sprint review and stakeholders ask "What's still open?"
-*   **Step 1**: Pivot table configured as Status × Sprint
-*   **Step 2**: Click the **row total** for "Open" status (e.g., "12 issues")
-*   **Step 3**: Modal shows all 12 open issues across all sprints
-*   **Step 4**: Click individual cells to investigate specific sprint+status combinations
-*   **Result**: Instant visibility into what needs attention, with exportable data
-
-### The "Bottleneck Investigator" Flow (NEW!)
-**Scenario**: You see 15 issues stuck in "Code Review" for one specific assignee and need to investigate.
-*   **Step 1**: In your Status × Assignee pivot, hover over the suspicious cell (e.g., "15" at Code Review + John)
-*   **Step 2**: Click the cell to drill down
-*   **Step 3**: Review all 15 tickets— are they all valid? Are some blockers?
-*   **Step 4**: Click ticket keys to open in Jira for quick triage
-*   **Result**: Rapid investigation with context preserved
-
-### The "Executive Report" Flow (NEW!)
-**Scenario**: Your VP wants a status breakdown for the entire division by end of day.
-*   **Step 1**: Run comprehensive JQL (e.g., `project in (PROJ1, PROJ2, PROJ3) AND created >= -30d`)
-*   **Step 2**: Generate Status × Priority pivot table
-*   **Step 3**: Click the **grand total** to see all issues
-*   **Step 4**: Copy as HTML and paste into email
-*   **Step 5**: For specific concerns (e.g., "High priority blockers"), click that cell, copy, and add as a callout
-*   **Result**: Professional, branded report completed in under 2 minutes
-
----
-
-## 💬 We Need Your Feedback!
-
-**Ticket360 is built FOR you, BY listening to you.**
-
-Your feedback is the driving force behind every feature, improvement, and bug fix. Whether you've found an issue, have a brilliant idea, or just want to share your experience—we want to hear from you!
-
-### 🐛 Found a Bug?
-Every bug report makes Ticket360 better for thousands of users.
-
-**[➡️ Report Bug on GitHub](https://github.com/sarivoli/common/issues/new?labels=bug)**
-
-Please include:
-- Browser and Ticket360 version
-- Steps to reproduce
-- What you expected vs. what happened
-
-### 💡 Have a Feature Idea?
-Your ideas shape our roadmap! We've shipped features requested by users like you.
-
-**[➡️ Request Feature on GitHub](https://github.com/sarivoli/common/issues/new?labels=enhancement)**
-
-Tell us:
-- What problem you're trying to solve
-- How the feature would help your workflow
-- Who else might benefit
-
-### ❓ Need Help?
-Stuck on something? Have questions?
-
-**[➡️ Ask on GitHub Discussions](https://github.com/sarivoli/common/discussions)**
-
-We're here to help you get the most out of Ticket360!
-
-### 📚 Documentation Unclear?
-Help us improve this guide and other documentation.
-
-**[➡️ Report Documentation Issue](https://github.com/sarivoli/common/issues/new?labels=documentation)**
-
-### ⭐ Love Ticket360?
-Show your support:
-- ⭐ [Star us on GitHub](https://github.com/sarivoli/common)
-- ✍️ Write a review on your browser's extension store
-- 📢 Share with your colleagues and team
-- 💬 Tweet about us with #Ticket360
-
----
-
-## 🔗 Quick Links
-
-| Resource | Link |
-|----------|------|
-| 🐛 Bug Reports | [GitHub Issues](https://github.com/sarivoli/common/issues/new?labels=bug) |
-| 💡 Feature Requests | [GitHub Issues](https://github.com/sarivoli/common/issues/new?labels=enhancement) |
-| ❓ Questions & Help | [GitHub Discussions](https://github.com/sarivoli/common/discussions) |
-| 📚 Documentation | [GitHub Issues](https://github.com/sarivoli/common/issues/new?labels=documentation) |
-
----
-
-**Thank you for being part of the Ticket360 community! Together, we're making Jira better for everyone.** 🚀
-
-*Created with ❤️ by [Arivoli](https://github.com/sarivoli)*
-
+*Ticket360 Version 1.8.0 — Created with ❤️ for Jira Users Everywhere.*
