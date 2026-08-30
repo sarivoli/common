@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
-  "releaseNotes": "Interactive Pivot Tables: Click any cell, row/column totals, or grand total to drill down. JQL History for quick query re-runs. Enhanced visual indicators and professional HTML exports.",
-  "releaseUrl": "https://github.com/sarivoli/common/blob/main/Ticket360/RELEASE_NOTES.md"
+  "version": "1.8.0",
+  "releaseNotes": "Instant Jira Mission Control on Every New Tab!,  High-Impact Interactive Widgets, Daily Progress Trend Reports , Multi-Tab Sticky Notes and much more ",
+  "releaseUrl": "https://github.com/sarivoli/common/blob/6d33fa1519e1c0479490824ad5125c05378f258a/products/Ticket360/README.md"
 }
